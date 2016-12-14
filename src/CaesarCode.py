@@ -10,7 +10,6 @@ from DictionaryManager import DictionaryManager
 
 
 class CaesarCode(object):
-
     def __init__(self):
         self.dm = DictionaryManager()
 
@@ -50,22 +49,22 @@ class CaesarCode(object):
             cur_shift = next_shift
             self.letter_shifts.append(cur_shift)
 
-#         common_letters = ['A', 'E', 'I', 'O', 'U']
-#         for h in common_letters:
-#             for w in common_letters:
-#                 if w is not h:
-#                     for e in common_letters:
-#                         if e is not h and e is not w:
-#                             self.letter_shifts.append({'H': h,
-#                                                        'W': w,
-#                                                        'E': e})
+            #         common_letters = ['A', 'E', 'I', 'O', 'U']
+            #         for h in common_letters:
+            #             for w in common_letters:
+            #                 if w is not h:
+            #                     for e in common_letters:
+            #                         if e is not h and e is not w:
+            #                             self.letter_shifts.append({'H': h,
+            #                                                        'W': w,
+            #                                                        'E': e})
 
-#         self.letter_shifts = list()
-#         self.letter_shifts.append({
-#                                    'L': 'N',
-#                                    'W': 'A'
-#                                    })
-#         self.letter_shifts = self.make_shifts_01()
+            #         self.letter_shifts = list()
+            #         self.letter_shifts.append({
+            #                                    'L': 'N',
+            #                                    'W': 'A'
+            #                                    })
+            #         self.letter_shifts = self.make_shifts_01()
 
     def make_shifts_01(self):
         shifts = list()
@@ -155,7 +154,7 @@ class CaesarCode(object):
 
     def print_letter_permutations(self, input_text):
         '''Print the input text with all possible letter permutations.'''
-        letters_sorted = self._sort_letters(input_text)
+        letters_sorted = self.sort_letters(input_text)
         all_letters = self._sorted_letters_by_frequency()
         for i in range(6, 6 + 1):
             src_letters = letters_sorted[:i]
@@ -182,7 +181,7 @@ class CaesarCode(object):
             for k, v in r[0].items():
                 if v != '.':
                     result[k] = v
-            print(result)
+            # print(result)
 
             output_text = self._perform_permutation(input_text, result)
             print(output_text)
@@ -193,12 +192,12 @@ class CaesarCode(object):
                 continue
             letter_shift[self.letters_sorted[index]] = letter_dst
             text = self._perform_permutation(self.input_text, letter_shift)
-            print(text)
+            # print(text)
             valid_text = True
             for word in text.split():
                 if not self.dm.words_with_pattern(word, exists=True):
                     valid_text = False
-#                     print('Word {} is invalid'.format(word))
+                    #                     print('Word {} is invalid'.format(word))
                     break
             if valid_text:
                 if index < len(self.letters_sorted) - 1:
@@ -233,6 +232,13 @@ class CaesarCode(object):
                                                key=lambda l: l[1], reverse=True)]
         return letters_sorted
 
+    def permute_with_dict(self, input_text: str, permutation_dict: dict):
+        output_list = []
+        for c in input_text:
+            new_c = permutation_dict.get(c) or c
+            output_list.append(new_c)
+        print(''.join(output_list))
+
     def _sorted_letters_by_frequency(self):
         '''From https://onzetaal.nl/taaladvies/advies/letterfrequentie-in-het-nederlands'''
         return ['E', 'N', 'A', 'T', 'I', 'R', 'O', 'D', 'S',
@@ -246,31 +252,61 @@ class CaesarCode(object):
                         else x.lower() for x in input_text])
         return text
 
-if __name__ == '__main__':
-#     msg = 'GMEM HWODB OE WLZRC EVLHRGMSEV PRA QEEFHUXO, YOKWGHZEPH HGM GSR VHDHYYQXQDTEPREV UCJIDVOQDBL (OWH DYH EILXPAYODWWH), ZDTEXH WWL HHQ SHUPXWDWLH HQ WHQ VORWWH MET CAESAR'
-#     msg = 'GMEM HWODB OE WLZRC EVLHRGMSEV PRA QEEFHUXO'
-#     msg = 'GMEM HWODB OE WLZRC EVLHRGMSEV PRA QEEFHUXO, YOKWGHZEPH HGM GSR VHDHYYQXQDTEPREV UCJIDVOQDBL (OWH DYH EILXPAYODWWH), ZDTEXH WWL'
-#     msg = 'VHDHYYQXQDTEPREV UCJIDVOQDBL (OWH DYH EILXPAYODWWH), ZDTEXH WWL'
-#     msg = 'UCJIDVOQDBL (OWH DYH EILXPAYODWWH), ZDTEXH WWL'
-#     msg = '(OWH DYH EILXPAYODWWH), ZDTEXH WWL'
-#     msg = 'ZDTEXH WWL'
-#     msg = 'HHQ SHUPXWDWLH HQ WHQVORWWH'
-#     msg = 'EILXPAYODWWH'
-#     msg = 'OWH DYH EILXPAYODWWH'
-#     msg = 'ZDTEXH WWL'
-#     msg = 'HWODB QEEFHUXO'
-#     msg = 'TPR SYSTRH JL AJGTJQ TEQQ EIA KQJLRSSJQ LRTPRQ'
-#     msg = 'REEP, FRIET, PUPPY, BUL, ROS, LOG, GONG, TOORN, LINDE, TEELT'
-#     msg = 'KA LOF, COSEN EN PRE; UTS KAAV; T TPTAA ( COMAAL); CF-CATAT ; DT;QUTUTAI; ,WTUK;TTEEEE;VT;KCF;GMTJE'
-#     msg = 'HLBDNE IPTKBR FT VEK E KEEP I. VTPITTHSDKB IPTKBR FT LVTPEH.'
-#     msg = 'HLBDNE'
-    msg = 'TPR SYSTRH JL AJGTJQ TEQQ EIA KQJLRSSJQ LRTPRQ'
-    msg = 'VJI CRHKRFRI EIA POS AOSGJVRQY '
-#     msg = 'HRSHRQOG QRVRFETOJI'
-    
+
+def geography_permutations():
+    msg = 'CGTGIGPDGM, DAFAIHJCHNK, DGPKBPOAS ZSS, DIOOIOOIJJI, DQMMLY- GLMCIFE, FASUW-IUAFSG, ' \
+          'FGTJMGHSSN, FIVC, GBSXGFTSMSABGFT, HFYX, HGKJGHBUH, IKUJQ VAJPKJ, IMHHQ-RMAQQGFFAS, ' \
+          'IMHSFBGFT, LDLZHFS, LUJGHD CHYH, QBQBOGOGHSSN, RHMFSH, RJVSIHSSN, STJHFA, SYNSHSSN, ' \
+          'TFONKTP, TVTNTPQ, VBOQJNBGHSSN, VJPQJDHSSN, VLFEPOSBILFE, VUUMBGFT, WHCEL'
+
+    # Empty permutation dict
+    permutation_dict = {
+        'A': 'a', 'B': 'b', 'C': 'c', 'D': 'd', 'E': 'e', 'F': 'f', 'G': 'g',
+        'H': 'h', 'I': 'i', 'J': 'j', 'K': 'k', 'L': 'l', 'M': 'm', 'N': 'n',
+        'O': 'o', 'P': 'p', 'Q': 'q', 'R': 'r', 'S': 's', 'T': 't', 'U': 'u',
+        'V': 'v', 'W': 'w', 'X': 'x', 'Y': 'y', 'Z': 'z'
+    }
+
+    # Islands
+    permutation_dict = {
+        'A': 'I', 'B': 'L', 'C': 'M', 'D': 'C', 'E': 'e', 'F': 'N', 'G': 'A',
+        'H': 'O', 'I': 'G', 'J': 'j', 'K': 'k', 'L': 'l', 'M': 'R', 'N': 'n',
+        'O': 'o', 'P': 'S', 'Q': 'T', 'R': 'B', 'S': 'E', 'T': 'D', 'U': 'U',
+        'V': 'V', 'W': 'W', 'X': 'X', 'Y': 'y', 'Z': 'z'
+    }
+
+    # Waters
+    permutation_dict = {
+        'A': 'H', 'B': 'I', 'C': 'c', 'D': 'K', 'E': 'e', 'F': 'L', 'G': 'A',
+        'H': 'M', 'I': 'N', 'J': 'O', 'K': 'P', 'L': 'l', 'M': 'G', 'N': 'R',
+        'O': 'C', 'P': 'S', 'Q': 'T', 'R': 'B', 'S': 'E', 'T': 'D', 'U': 'u',
+        'V': 'V', 'W': 'w', 'X': 'x', 'Y': 'Y', 'Z': 'Z'
+    }
+
+    # Rivers
+    permutation_dict = {
+        'A': 'a', 'B': 'K', 'C': 'L', 'D': 'M', 'E': 'G', 'F': 'N', 'G': 'D',
+        'H': 'O', 'I': 'I', 'J': 'P', 'K': 'k', 'L': 'A', 'M': 'R', 'N': 'n',
+        'O': 'S', 'P': 'T', 'Q': 'U', 'R': 'r', 'S': 'E', 'T': 't', 'U': 'u',
+        'V': 'J', 'W': 'W', 'X': 'X', 'Y': 'Y', 'Z': 'Z'
+    }
+
+    permutation_dict = {
+        'A': 'I', 'B': 'G', 'C': 'J', 'D': 'K', 'E': 'e', 'F': 'L', 'G': 'C',
+        'H': 'A', 'I': 'M', 'J': 'N', 'K': 'O', 'L': 'P', 'M': 'm', 'N': 'R',
+        'O': 'B', 'P': 'S', 'Q': 'T', 'R': 'r', 'S': 'D', 'T': 'E', 'U': 'U',
+        'V': 'V', 'W': 'w', 'X': 'x', 'Y': 'Y', 'Z': 'z'
+    }
+
     cc = CaesarCode()
-    cc.caesar_code(msg)
-#     cc.count_letters(msg)
-#     cc.print_letter_permutations(msg)
-    
-    cc.determine_letter_permutation(msg, allow_double_letters=False)
+    cc.permute_with_dict(msg, permutation_dict)
+
+if __name__ == '__main__':
+    msg = 'NZR NNFVYT QJG IWQN IQFLLNJQ'
+
+    cc = CaesarCode()
+    # cc.caesar_code(msg)
+    # cc.count_letters(msg)
+    # cc.print_letter_permutations(msg)
+
+    cc.determine_letter_permutation(msg, allow_double_letters=True)
