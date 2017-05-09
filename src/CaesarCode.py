@@ -11,7 +11,11 @@ from DictionaryManager import DictionaryManager
 
 class CaesarCode(object):
     def __init__(self):
-        self.dm = DictionaryManager()
+        try:
+            self.dm = DictionaryManager()
+        except:
+            print('Go to /Applications/XAMPP')
+            print('Run sudo ./xamppfiles/xampp startmysql')
 
         self.letter_shifts = list()
         one_shift = {'A': 'B',
@@ -302,11 +306,13 @@ def geography_permutations():
     cc.permute_with_dict(msg, permutation_dict)
 
 if __name__ == '__main__':
-    msg = 'NZR NNFVYT QJG IWQN IQFLLNJQ'
+    msg = 'EP IOVMYZB EH SVM HEQGVB RV YVPM OU OG MERW OU RV YVPM MV BZZM ZBH RV MV BZZM YVPM QOVM RV FONTVP WZM RV OG MERW IVNMNVCM'
+    msg = 'XS UOOH VSH DOG NWSB OZG XS VSH RCCF VSPH'
+    msg = 'NLVG QV ALITVM WZG QV LK GRQW EVIGIVPG'
 
     cc = CaesarCode()
-    # cc.caesar_code(msg)
+    cc.caesar_code(msg)
     # cc.count_letters(msg)
     # cc.print_letter_permutations(msg)
 
-    cc.determine_letter_permutation(msg, allow_double_letters=True)
+    cc.determine_letter_permutation(msg, allow_double_letters=False)
