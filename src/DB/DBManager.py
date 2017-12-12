@@ -54,7 +54,8 @@ class DBManager(object):
 
     @staticmethod
     def get_config(predefined_config):
-        """Retrieve a predefined config dictionary for DBManager
+        """
+        Retrieve a predefined config dictionary for DBManager
 
         Input:
         ------
@@ -72,15 +73,7 @@ class DBManager(object):
 
         Assert.py_type(predefined_config, str, 'predefined config')
 
-        if predefined_config == 'localhost':
-            config = {
-                'user': 'root',
-                'passwd': '',
-                'host': '127.0.0.1',
-                'port': 3306,
-                'default_db': 'orderwriter'
-            }
-        elif predefined_config == 'puzzle':
+        if predefined_config == 'puzzle':
             config = {
                 'user': 'root',
                 'passwd': '',
@@ -88,61 +81,24 @@ class DBManager(object):
                 'port': 3306,
                 'default_db': 'puzzle_words'
             }
-        elif predefined_config == 'nyon_office':
-            config = {
-                'user': 'root',
-                'passwd': 'Nyon6966',
-                'host': '83.161.215.203',
-                'port': 8889
-            }
-        elif predefined_config == 'orderwriter_test':
-            config = {
-                'user': 'nyon_test',
-                'passwd': 'AbLsLKnq6NJjd8a6',
-                'host': '213.206.228.254',
-                'port': 3306,
-                'default_db': 'orderwriter_20150721',
-            }
-        elif predefined_config == 'orderwriter_live':
-            config = {
-                'user': 'nyon_live',
-                'passwd': 'BjaNWs29sUeNWyZ4',
-                'host': '213.206.228.254',
-                'port': 3306,
-                'default_db': 'orderwriter'
-            }
-        elif predefined_config == 'aws_au':
-            config = {
-                'user': 'root',
-                'passwd': 'Nyon6966',
-                'host': 'aurora.ck67ii8uyuzl.eu-west-1.rds.amazonaws.com',
-                'port': 3306
-            }
-        elif predefined_config == 'aws_ow':
-            config = {
-                'user': 'OrderWriter',
-                'passwd': 'Nyon6966',
-                'host': 'orderwriter.crii9g2k1ak3.eu-central-1.rds.amazonaws.com',
-                'port': 3306
-            }
         else:
             msg = 'Predefined config "{0}" not recognized.'.format(predefined_config)
             raise AssertionError(msg)
         config['config'] = predefined_config
         return config
 
-    ''' Public methods '''
+    # Public methods
 
     def connect_to_database(self, db_name):
         self.cnx.select_db(db_name)
 
     def execute(self, query, params=None):
         if self.debug:
-            print (query)
+            print(query)
         try:
             self.cursor.execute(query, params)
         except:
-            print ('Last query:\n{0}'.format(query))
+            print('Last query:\n{0}'.format(query))
             raise
 
     def fetchall(self):
@@ -164,7 +120,7 @@ class DBManager(object):
         if confirm:
             self.execute("DROP DATABASE IF EXISTS {0}".format(db_name))
             if self.debug:
-                print ('Database {0} dropped'.format(db_name))
+                print('Database {0} dropped'.format(db_name))
         else:
             msg = 'Need confirmation message to drop a database'
             raise AssertionError(msg)
@@ -200,7 +156,8 @@ class DBManager(object):
         self.execute(sql)
 
     def create_database(self, db_name, force_create=False):
-        """Create an empty database.
+        """
+        Create an empty database
 
         Parameters
         ----------
@@ -228,10 +185,11 @@ class DBManager(object):
             self.drop_database(db_name, confirm=True)
         self.cursor.execute("CREATE DATABASE {0} DEFAULT CHARACTER SET 'utf8'".format(db_name))
         if self.info:
-            print ('Database {0} created'.format(db_name))
+            print('Database {0} created'.format(db_name))
 
     def current_database(self):
-        """Return a string with the current database.
+        """
+        Return a string with the current database
 
         Parameters
         ----------
@@ -259,7 +217,8 @@ class DBManager(object):
         self.execute(q)
 
     def table_exists(self, table, db_name=None):
-        """Return whether the given Table exists in the current database.
+        """
+        Return whether the given Table exists in the current database
 
         Parameters
         ----------
@@ -303,7 +262,8 @@ class DBManager(object):
         return bool(self.fetch_as_value(q))
 
     def column_exists(self, table, column):
-        """Return whether the given column exists in the Table.
+        """
+        Return whether the given column exists in the Table
 
         Parameters
         ----------
@@ -330,7 +290,8 @@ class DBManager(object):
         return column in cols
 
     def drop_table(self, table):
-        """Drop a table from the database.
+        """
+        Drop a table from the database
 
         If the table does not exist in the database, nothing happens.
 
@@ -350,7 +311,8 @@ class DBManager(object):
         self.execute(drop)
 
     def truncate_table(self, table, disable_foreign_key_checks=False):
-        """Truncate a table from the database
+        """
+        Truncate a table from the database
 
         Raises an error if the table does not exists
 
@@ -384,7 +346,8 @@ class DBManager(object):
 
     def create_table_from_create(self, create_table_query, force_create=False,
                                  temporary=False):
-        """Create a table from a create query.
+        """
+        Create a table from a create query
 
         Execute the create_table_query to create a table. The name of the Table
         to create is assumed to be the third word of the query.
@@ -440,7 +403,7 @@ class DBManager(object):
             self.execute(create_table_query)
             table_created = True
             if self.info:
-                print ('Table {} created'.format(table_name))
+                print('Table {} created'.format(table_name))
         except pymysql.err.InternalError:
             print('Last query:\n{0}'.format(create_table_query))
             raise
@@ -448,7 +411,8 @@ class DBManager(object):
         return table_created
 
     def create_table_from_select(self, table_out, select_query, force_create=False):
-        """Create a table from a select query.
+        """
+        Create a table from a select query
 
         Parameters
         ----------
@@ -489,7 +453,8 @@ class DBManager(object):
         return table_created
 
     def create_table_like(self, table_ref, table_out, force_create=False):
-        """Create an empty Table with columns like another Table.
+        """
+        Create an empty Table with columns like another Table
 
         Create the Table `table_out` with columns and properties exactly
         as Table `table_ref`, but with no contents.
@@ -540,7 +505,9 @@ class DBManager(object):
         return table_created
 
     def copy_table(self, src_table, dst_table, force_create):
-        """Copy an entire table from src to dst"""
+        """
+        Copy an entire table from src to dst
+        """
 
         self.create_table_like(src_table, dst_table, force_create)
 
@@ -558,7 +525,8 @@ class DBManager(object):
         return result
 
     def fetch_as_array(self, select_query, col=None):
-        """Execute a select query with a single column and return the outcome as an array.
+        """
+        Execute a select query with a single column and return the outcome as an array
 
         The argument col determines which column in the SELECT query is returned as an array.
         If the argument col is None, the first column is returned.
@@ -580,7 +548,8 @@ class DBManager(object):
         return result
 
     def fetch_as_array_of_arrays(self, select_query):
-        """Execute a select query with multiple columns and return the outcome as an array.
+        """
+        Execute a select query with multiple columns and return the outcome as an array
 
         The argument col determines which column in the SELECT query is returned as an array.
         If the argument col is None, the first column is returned.
@@ -592,7 +561,9 @@ class DBManager(object):
         return result
 
     def fetch_as_dict(self, select_query):
-        """Execute a select query and return the outcome as a dict."""
+        """
+        Execute a select query and return the outcome as a dict
+        """
 
         self.execute(select_query)
         data = self.fetchall()
@@ -606,7 +577,8 @@ class DBManager(object):
         return result
 
     def fetch_as_np_matrix(self, select_query, glob2loc_x, glob2loc_y):
-        """Execute a select query and return the outcome as an np matrix.
+        """
+        Execute a select query and return the outcome as an np matrix
 
         Parameters
         ----------
@@ -669,7 +641,9 @@ class DBManager(object):
         return result
 
     def fetch_with_dictcursor(self, select_query):
-        """Execute a select query using a DictCursor"""
+        """
+        Execute a select query using a DictCursor
+        """
 
         prev_cursor = self.cursor
         self.cursor = self.cnx.cursor(pymysql.cursors.DictCursor)
@@ -679,7 +653,8 @@ class DBManager(object):
         return r
 
     def insert_into_table(self, table_name, cols, values, update_on_duplicate=True, db_name=None):
-        """Insert the values in the columns of the given Table.
+        """
+        Insert the values in the columns of the given Table
 
         Parameters
         ----------
@@ -717,6 +692,7 @@ class DBManager(object):
         This method breaks up the insertion in multiple insertions of a 1000
         when more than 1000 records need to be inserted.
         """
+
         Assert.py_type(table_name, str, 'table_name')
         if db_name is not None:
             Assert.py_type(db_name, str, 'db_name')
@@ -794,7 +770,8 @@ class DBManager(object):
             self.execute(q)
 
     def checksum_table(self, table):
-        """Return the checksum of the given Table.
+        """
+        Return the checksum of the given Table
 
         Parameters
         ----------
@@ -828,7 +805,8 @@ class DBManager(object):
         return result[1]
 
     def index_column(self, table, column):
-        """Add an index to a specific column in a Table.
+        """
+        Add an index to a specific column in a Table
 
         Parameters
         ----------
@@ -861,7 +839,8 @@ class DBManager(object):
 
     def add_foreign_key(self, table_child, table_parent, col_child, col_parent,
                         on_delete='RESTRICT', on_update='RESTRICT'):
-        """Add a foreign key to a Table.
+        """
+        Add a foreign key to a Table
 
         Parameters
         ----------
@@ -870,7 +849,7 @@ class DBManager(object):
         params = {'table_child': table_child, 'table_parent': table_parent,
                   'col_child': col_child, 'col_parent': col_parent,
                   'on_delete': on_delete, 'on_update': on_update}
-        
+
         self.index_column(table_parent, col_parent)
         sql = '''
             ALTER TABLE `{table_child}` 
@@ -883,7 +862,9 @@ class DBManager(object):
         self.execute(sql)
 
     def primary_key_column(self, table, column):
-        """Add a primary key to a specific column in a Table."""
+        """
+        Add a primary key to a specific column in a Table
+        """
 
         alter = '''
             ALTER TABLE {0}
@@ -897,10 +878,12 @@ class DBManager(object):
         '''.format(variable, value)
         self.execute(set_var)
 
-    ''' Queries '''
+    # Queries
 
     def sneak_preview(self, table):
-        """Print the first ten rows of the Table to the console."""
+        """
+        Print the first ten rows of the Table to the console
+        """
 
         Assert.py_type(table, str, 'Input table')
         assert self.table_exists(table), \
@@ -912,10 +895,11 @@ class DBManager(object):
             LIMIT 10
         '''.format(table)
         self.execute(show)
-        print (self.fetchall())
+        print(self.fetchall())
 
     def count_rows(self, table):
-        """Return the number of rows of the given Table.
+        """
+        Return the number of rows of the given Table
         :type table: str
         """
 
@@ -945,12 +929,14 @@ class DBManager(object):
         return self.fetch_as_dict(q)
 
     def q_col_type(self, table, column):
-        """Return the type of a certain column in a certain table.
+        """
+        Return the type of a certain column in a certain table
 
         Parameters
         ----------
         TODO
         """
+
         assert self.column_exists(table, column)
 
         q = '''
@@ -961,7 +947,9 @@ class DBManager(object):
         return result
 
     def show_columns(self, table, database_name=None):
-        """Return a list of column names of the given Table."""
+        """
+        Return a list of column names of the given Table
+        """
 
         if database_name is not None:
             db_name = '{}.'.format(database_name)
@@ -974,7 +962,7 @@ class DBManager(object):
         cols = [x[0] for x in self.fetchall()]
         return cols
 
-    ''' Private methods '''
+    # Private methods
 
     @staticmethod
     def _connect_to_mysql(config):
@@ -989,7 +977,8 @@ class DBManager(object):
         return cnx
 
     def _show_create(self, table):
-        """Returns a string that can be used to create the Table.
+        """
+        Return a string that can be used to create the Table.
 
         This means without content, but with properties like indexes
         """
@@ -1008,7 +997,7 @@ class DBManager(object):
             return t[3]
         else:
             return t[2]
-        
+
     def _index_exists(self, table_name, col_name, db_name=None):
         if db_name is None:
             db_name = self.current_database()
@@ -1022,9 +1011,3 @@ class DBManager(object):
         count = self.fetch_as_value(q)
         result = count > 0
         return result
-
-if __name__ == '__main__':
-    config = DBManager.get_config('localhost')
-    db = DBManager(config)
-    db.copy_database(src_db='orderwriter', dst_db='orderwriter_20150708')
-    db.copy_database(src_db='orderwriter_support', dst_db='orderwriter_support_20150708')

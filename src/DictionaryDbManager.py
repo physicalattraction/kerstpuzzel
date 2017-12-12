@@ -1,22 +1,23 @@
-'''
-Created on Dec 20, 2015'''
+"""
+Created on Dec 20, 2015
+"""
 
 from DB.SqlHelper import SqlHelper
 from DB.DBManager import DBManager
 
 
 class DictionaryManager(object):
-    '''
+    """
     Manage the Dutch dictionary
-    '''
+    """
 
     def __init__(self):
         config = DBManager.get_config('puzzle')
         self.db = DBManager(config)
 
     def is_valid_word(self, input_word):
-        '''Verify if the input text belongs to Dutch language'''
-        sql = '''SELECT word FROM stripped WHERE word = '{}' LIMIT 1'''.format(input_word)
+        """Verify if the input text belongs to Dutch language"""
+        sql = """SELECT word FROM stripped WHERE word = '{}' LIMIT 1""".format(input_word)
         r = self.db.fetch_as_array(sql, col=0)
         if not r:
             return False
@@ -24,7 +25,8 @@ class DictionaryManager(object):
             return True
 
     def words_with_pattern(self, input_word, exists=False):
-        '''Return all words with the given pattern.
+        """
+        Return all words with the given pattern.
 
         Inputs
         ------
@@ -43,7 +45,7 @@ class DictionaryManager(object):
              'UITGEKOMEN', 'UITGEKOZEN', 'UITGELADEN', 'UITGELOPEN', 'UITGEMALEN',
              'UITGENEPEN', 'UITGEREDEN', 'UITGEREZEN', 'UITGEVAREN', 'UITGEWEKEN',
              'UITGEWEZEN', 'UITGEWOGEN', 'UITGEZETEN', 'UITGEZOGEN', 'UITGEZOPEN']
-        '''
+        """
         selection = dict()
         for i, input_char in enumerate(input_word):
             if input_char != '.':

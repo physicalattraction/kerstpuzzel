@@ -6,7 +6,7 @@ from pprint import pprint
 import string
 import itertools
 
-from DictionaryManager import DictionaryManager
+from DictionaryDbManager import DictionaryManager
 
 
 class CaesarCode(object):
@@ -306,9 +306,7 @@ def geography_permutations():
     cc.permute_with_dict(msg, permutation_dict)
 
 if __name__ == '__main__':
-    msg = 'EP IOVMYZB EH SVM HEQGVB RV YVPM OU OG MERW OU RV YVPM MV BZZM ZBH RV MV BZZM YVPM QOVM RV FONTVP WZM RV OG MERW IVNMNVCM'
-    msg = 'XS UOOH VSH DOG NWSB OZG XS VSH RCCF VSPH'
-    msg = 'NLVG QV ALITVM WZG QV LK GRQW EVIGIVPG'
+    msg = ''
 
     cc = CaesarCode()
     cc.caesar_code(msg)
