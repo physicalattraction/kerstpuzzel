@@ -2,13 +2,13 @@ import mmap
 import os
 import re
 
+from word_list import WordList
+
 
 class DictionaryRegexer:
 
     def __init__(self):
-        filename = os.path.join('..', 'csv', 'OpenTaal-210G-woordenlijsten', 'OpenTaal-210G-basis-gekeurd.txt')
-        with open(filename, 'r') as f:
-            self.words = f.read()
+        self.words = '\n'.join(WordList(['dutch_words', 'dutch_bands', 'dutch_series']))
 
     def find_words_with_pattern(self, pattern: str) -> [str]:
         regexp = self.pattern_to_regexp(pattern)
@@ -21,5 +21,8 @@ class DictionaryRegexer:
 if __name__ == '__main__':
     dr = DictionaryRegexer()
     print(len(dr.words))
-    all_words = dr.find_words_with_pattern('kamer*plant')
-    print(all_words)
+    all_words = dr.find_words_with_pattern('*z*m*e*r*l*g*e*')
+    all_words = dr.find_words_with_pattern('*{}*'.format('*'.join([letter for letter in 'PALMA'])))
+    for word in sorted(all_words):
+        print(word)
+    print(len(all_words))
