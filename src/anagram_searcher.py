@@ -10,7 +10,7 @@ import math
 from utils import clean_word
 from word_list import WordList
 
-MIN_LENGTH = 2
+MIN_LENGTH = 4
 
 
 class AnagramSearcher:
@@ -51,15 +51,14 @@ class AnagramSearcher:
                         result += anagrams
         return sorted(set(result))
 
-    def find_anagrams_with_extra_letters_for(self, word: str) -> [str]:
-        # TODO: Use permutations and search for words as partial anagrams and continue from rest of word iteratively
+    def find_anagrams_with_extra_letters_for(self, word: str, nr_extra_letters:int) -> [str]:
         found_anagrams = set()
-        for extra_letter_1 in ' ' + string.ascii_lowercase:
-            for extra_letter_2 in ' ' + string.ascii_lowercase:
-                for extra_letter_3 in ' ' + string.ascii_lowercase:
-                    new_word = word + extra_letter_1 + extra_letter_2 + extra_letter_3
-                    for found_anagram in self.find_anagrams_for(new_word):
-                        found_anagrams.add(found_anagram)
+
+        for permutation in permutations(' ' + string.ascii_lowercase, nr_extra_letters):
+            extra_letters = ''.join(permutation)
+            new_word = word + extra_letters
+            for found_anagram in self.find_anagrams_for(new_word):
+                found_anagrams.add(found_anagram)
         return sorted(found_anagrams)
 
     def index_anagrams_simple(self, word_list: WordList = None):
@@ -114,17 +113,17 @@ if __name__ == '__main__':
     #         print('{} - {}'.format(band, ', '.join(found_anagrams)))
 
     words_3a = 'ABDEJRSTU FKNPS DGHIKLRT BDGHIJNPRST BGINPRSTU ABERU DEKLNRSVY'.split(' ')
+    words_13 = 'EVEONZW FYNTXIZXSG NMNCVHG OLTOBVX ORDZPRE PEHRCVIGQVF VQNNNVIF YRFTRYH YVFCIVATRMT'.split(' ')
     words_25b = 'Banjo Praal Scene, Kan Chip Gein, Nar Cijfer Knik, Tribunes Eigenaar Snoei, Gel Daar Lint, ' \
                 'Coup Cru Ze, Fok Zo Kamer, Kweekte Wie Ooit, Alias Vilt Veer, Nachtmis Nulde Dun, ' \
                 'Vaan Durven Cacao, Leesvaardigheid Helpen Pitten, Rem Standaard Melden, Omtrent Nerd Daalder, ' \
                 'Schadevergoeding Want Tennist'.split(', ')
-    # for word in words_3a:
-    #     anagrams = anagram_searcher.find_anagrams_with_extra_letters_for(word)
-    #     anagrams = anagram_searcher.find_anagrams_for(word)
-    #     print('{}: {}'.format(word, anagrams or '-'))
 
-    # anagram_searcher.print_permutations('Coup Cru Ze')
-    # word = anagram_searcher.remove_word_from_word('gitaar',
-    #                                               anagram_searcher.remove_word_from_word('de', 'Gel Daar Lint'))
-    # print(word)
-    # anagram_searcher.find_anagrams_for(word)
+    # for word in words_25b:
+    #     anagrams = anagram_searcher.find_anagrams_multi_for(word)
+    #     for anagram in anagrams:
+    #         print('{} - {}'.format(word, anagram))
+    for word in words_13:
+        anagrams = anagram_searcher.find_anagrams_with_extra_letters_for(word, nr_extra_letters=4)
+        for anagram in anagrams:
+            print('{} - {}'.format(word, anagram))
