@@ -1,7 +1,7 @@
 import re
 from unittest import TestCase
 
-from DictionaryRegexer import DictionaryRegexer
+from regexer import DictionaryRegexer
 
 
 class DictionaryRegexerTestCase(TestCase):

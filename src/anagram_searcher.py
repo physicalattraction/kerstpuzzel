@@ -10,33 +10,44 @@ from word_list import WordList
 
 class AnagramSearcher:
     def __init__(self):
-        # pass
-        with open(self.anagram_index_file, 'r') as f:
-            self.anagrams = json.loads(f.read())
-
-    @property
-    def word_list_file(self):
-        return os.path.join('..', 'txt', 'dutch_words.txt')
+        if os.path.exists(self.anagram_index_file):
+            with open(self.anagram_index_file, 'r') as f:
+                self.anagrams = json.loads(f.read())
+        else:
+            self.anagrams = {}
 
     @property
     def anagram_index_file(self):
-        return os.path.join('..', 'txt', 'anagram_index.txt')
+        return os.path.join('..', 'txt', 'anagram_index.json')
 
     def find_anagrams_for(self, word: str) -> [str]:
         cleaned_word = clean_word(word)
         key = ''.join(sorted(cleaned_word))
         return self.anagrams.get(key, [])
 
-    def index_anagrams_simple(self):
+    def find_anagrams_with_extra_letters_for(self, word: str):
+        found_anagrams = set()
+        for extra_letter in ' ' + string.ascii_lowercase:
+            new_word = word + extra_letter
+            for extra_letter in ' ' + string.ascii_lowercase:
+                new_word = new_word + extra_letter
+                for extra_letter in ' ' + string.ascii_lowercase:
+                    new_word = new_word + extra_letter
+                    for found_anagram in self.find_anagrams_for(new_word):
+                        found_anagrams.add(found_anagram)
+        return found_anagrams
+
+    def index_anagrams_simple(self, word_list: WordList = None):
         """
         Call this function once to index anagrams
         """
 
-        wordlist = WordList(['dutch_series', 'dutch_words'])
-        result = defaultdict(list)
-        for word in wordlist:
+        result = self.anagrams
+        for word in word_list:
             word = clean_word(word)  # remove spaces
             key = ''.join(sorted(word))
+            if key not in result:
+                result[key] = []
             if word not in result[key]:
                 result[key].append(word)
         with open(self.anagram_index_file, 'w+') as f:
@@ -56,17 +67,7 @@ class AnagramSearcher:
         total_word = clean_word(total_word)
         for letter in word_to_remove:
             total_word = re.sub(letter, '', total_word, count=1)
-        print(total_word)
         return total_word
-
-    def clean_word_list(self):
-        # TODO: Move to WordList
-        filename = os.path.join('..', 'csv', 'OpenTaal-210G-woordenlijsten', 'OpenTaal-210G-basis-gekeurd.txt')
-        with open(filename, 'r') as f:
-            words = f.read().split('\n')
-        words = [clean_word(word) for word in words]
-        with open(self.word_list_file, 'w+') as f:
-            f.write('\n'.join(words))
 
     def new_letter(self, number: int, letter: str):
         # TODO: Move away from anagram_searcher
@@ -78,14 +79,21 @@ class AnagramSearcher:
 
 
 if __name__ == '__main__':
-    anagrams = AnagramSearcher()
-    # anagrams.clean_word_list()
-    # anagrams.index_anagrams_simple()
+    anagram_searcher = AnagramSearcher()
+    anagram_searcher.index_anagrams_simple(WordList([WordList.DUTCH_WORDS, WordList.DIED2017]))
 
-    dutch_bands = WordList(['dutch_bands'])
-    for band in dutch_bands:
-        found_anagrams = anagrams.find_anagrams_for(band)
-        found_anagrams = [anagram for anagram in found_anagrams if anagram != band]
-        if found_anagrams:
-            print('{} - {}'.format(band, ', '.join(found_anagrams)))
+    # dutch_bands = WordList(['dutch_bands'])
+    # for band in dutch_bands:
+    #     found_anagrams = anagram_searcher.find_anagrams_for(band)
+    #     found_anagrams = [anagram for anagram in found_anagrams if anagram != band]
+    #     if found_anagrams:
+    #         print('{} - {}'.format(band, ', '.join(found_anagrams)))
 
+    words_3a = 'ABDEJRSTU FKNPS DGHIKLRT BDGHIJNPRST BGINPRSTU ABERU DEKLNRSVY'.split(' ')
+    words_25b = 'Banjo Praal Scene, Kan Chip Gein, Nar Cijfer Knik, Tribunes Eigenaar Snoei, Gel Daar Lint, ' \
+                'Coup Cru Ze, Fok Zo Kamer, Kweekte Wie Ooit, Alias Vilt Veer, Nachtmis Nulde Dun, ' \
+                'Vaan Durven Cacao, Leesvaardigheid Helpen Pitten, Rem Standaard Melden, Omtrent Nerd Daalder, ' \
+                'Schadevergoeding Want Tennist'.split(', ')
+    for word in words_25b:
+        anagrams = anagram_searcher.find_anagrams_with_extra_letters_for(word)
+        print('{}: {}'.format(word, anagrams or '-'))

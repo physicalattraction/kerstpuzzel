@@ -16,7 +16,23 @@ class LetterCounter(object):
     def __init__(self, txt):
         self.count_letters(txt.upper())
 
-    def count_letters(self, txt: str):
+    def count_letters(self, txt:str):
+        # Count all letters
+        txt = txt.upper()
+        letters = set([letter for letter in txt if letter in string.ascii_uppercase])
+        count = {letter: txt.count(letter) for letter in letters}
+        for letter in sorted(letters):
+            print('{}: {}'.format(letter, count[letter]))
+
+        print('Try adding:')
+        max_count = max(count.values())
+        for letter in sorted(letters):
+            letter_to_add_count = max_count - count[letter]
+            if  letter_to_add_count != 0:
+                print('{}: {}'.format(letter, letter_to_add_count))
+
+
+    def count_letters_2016(self, txt: str):
         # Count all letters
         letter_count = list()
         alphabet = string.ascii_uppercase
@@ -70,5 +86,6 @@ if __name__ == '__main__':
     msg = 'de grootte in de getto groeit gortig groot'
     msg = 'meesters in amsterdam eten smarties'
     msg = 'ik zoek zotte konijnen die in een konijnenkooi zitten'  # Werkt
+    msg = ''
 
     LetterCounter(msg)

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="nl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Categorie:Nederlandse dramaserie - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Category","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":14,"wgPageName":"Categorie:Nederlandse_dramaserie","wgTitle":"Nederlandse dramaserie","wgCurRevisionId":38110138,"wgRevisionId":38110138,"wgArticleId":681726,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Dramaserie naar land","Nederlandse televisieserie"],"wgBreakFrames":false,"wgPageContentLanguage":"nl","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"wgMonthNamesShort":["","jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"],"wgRelevantPageName":"Categorie:Nederlandse_dramaserie","wgRelevantArticleId":681726,"wgRequestId":"WjQajwpAMFoAAJOi1CEAAABE","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":true,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"nl","pageLanguageDir":"ltr","pageVariantFallbacks":"nl","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"nl","wgMFExpandAllSectionsUserOption":false,"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"Nederlands","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q8394110","wgCentralAuthMobileDomain":false,"wgCodeMirrorEnabled":false,"wgVisualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":["undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":true});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.action.view.categoryPage.styles":"ready","ext.categoryTree.css":"ready","mediawiki.helplink":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.tmh.thumbnail.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@1vqgkzt",function($,jQuery,require,module){mw.user.options.set({"variant":"nl"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/
+
+});mw.loader.load(["ext.categoryTree","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Direct-link-to-Commons","ext.gadget.ProtectionTemplates","ext.gadget.IProject","ext.gadget.hoofdbetekenis-titelwijziging","ext.gadget.ReferenceTooltips","ext.gadget.OpenStreetMapFrame","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.compactlinks","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=nl&amp;modules=ext.categoryTree.css%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.action.view.categoryPage.styles%7Cmediawiki.helplink%2CsectionAnchor%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=nl&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=nl&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.31.0-wmf.12"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" type="application/x-wiki" title="Bewerken" href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;action=edit"/>
+<link rel="edit" title="Bewerken" href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (nl)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//nl.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom-feed" href="/w/index.php?title=Speciaal:RecenteWijzigingen&amp;feed=atom"/>
+<link rel="canonical" href="https://nl.wikipedia.org/wiki/Categorie:Nederlandse_dramaserie"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 9]><script src="/w/load.php?debug=false&amp;lang=nl&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-14 ns-subject page-Categorie_Nederlandse_dramaserie rootpage-Categorie_Nederlandse_dramaserie skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div><div class="mw-indicators mw-body-content">
+<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="//www.mediawiki.org/wiki/Special:MyLanguage/Help:Categories" target="_blank" class="mw-helplink">Hulp</a></div>
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="nl">Categorie:Nederlandse dramaserie</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">Uit Wikipedia, de vrije encyclopedie</div>				<div id="contentSub"></div>
+								<div id="jump-to-nav" class="mw-jump">
+					Ga naar:					<a href="#mw-head">navigatie</a>, 					<a href="#p-search">zoeken</a>
+				</div>
+				<div id="mw-content-text" lang="nl" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table style="text-align:center; margin:0px; width:100%;" cellspacing="0" cellpadding="0">
+<tr>
+<td width="35px"><a href="/wiki/Bestand:P_Cinema.svg" class="image" title="Icoontje broodkruimel"><img alt="Icoontje broodkruimel" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/P_Cinema.svg/35px-P_Cinema.svg.png" width="35" height="32" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/P_Cinema.svg/53px-P_Cinema.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/16/P_Cinema.svg/70px-P_Cinema.svg.png 2x" data-file-width="400" data-file-height="360" /></a></td>
+<td>
+<div style="font-size: 8pt;">
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right">
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right">
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right"></td>
+<td><a href="/wiki/Categorie:Televisieserie_naar_land" title="Categorie:Televisieserie naar land">Televisieserie naar land</a></td>
+</tr>
+</table>
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right"></td>
+<td><a href="/wiki/Categorie:Nederlands_televisieprogramma_naar_genre" title="Categorie:Nederlands televisieprogramma naar genre">Nederlands televisieprogramma naar genre</a></td>
+</tr>
+</table>
+</td>
+<td><big>}</big></td>
+<td align="right"></td>
+<td>&#160;→&#160;</td>
+<td><a href="/wiki/Categorie:Nederlandse_televisieserie" title="Categorie:Nederlandse televisieserie">Nederlandse televisieserie</a></td>
+</tr>
+</table>
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right">
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right"></td>
+<td><a href="/wiki/Categorie:Dramaserie" title="Categorie:Dramaserie">Dramaserie</a></td>
+</tr>
+</table>
+<table cellspacing="1" cellpadding="0">
+<tr>
+<td align="right"></td>
+<td><a href="/wiki/Categorie:Televisieserie_naar_land" title="Categorie:Televisieserie naar land">Televisieserie naar land</a></td>
+</tr>
+</table>
+</td>
+<td><big>}</big></td>
+<td align="right"></td>
+<td>&#160;→&#160;</td>
+<td><a href="/wiki/Categorie:Dramaserie_naar_land" title="Categorie:Dramaserie naar land">Dramaserie naar land</a></td>
+</tr>
+</table>
+</td>
+<td><big>}</big></td>
+<td align="right"></td>
+<td>&#160;→&#160;</td>
+<td><a class="mw-selflink selflink">Nederlandse dramaserie</a></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1321
+Cached time: 20171201065419
+Cache expiry: 1900800
+Dynamic content: false
+CPU time usage: 0.028 seconds
+Real time usage: 0.035 seconds
+Preprocessor visited node count: 47/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 2753/2097152 bytes
+Template argument size: 12/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/500
+Lua time usage: 0.008/10.000 seconds
+Lua memory usage: 606 KB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   27.643      1 Sjabloon:Broodkruimel
+100.00%   27.643      1 -total
+  4.68%    1.293      1 Sjabloon:Broodkruimel/filmicoon
+-->
+</div>
+<!-- Saved in parser cache with key nlwiki:pcache:idhash:681726-0!canonical and timestamp 20171201065419 and revision id 38110138
+ -->
+<div class="mw-category-generated" lang="nl" dir="ltr"><div id="mw-subcategories">
+<h2>Ondercategorieën</h2>
+<p>Deze categorie bevat de volgende 4 ondercategorieën, van een totaal van 4.
+</p><div lang="nl" dir="ltr" class="mw-content-ltr"><h3>G</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" data-ct-title="Gooische_Vrouwen" data-ct-state="collapsed">►</span> </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Categorie:Gooische_Vrouwen">Gooische Vrouwen</a>‎ <span title="bevat één ondercategorie, 5 pagina&#039;s en 0 bestanden" dir="ltr">(1 C, 5 P)</span></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</li></ul><h3>M</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Categorie:Medisch_Centrum_West">Medisch Centrum West</a>‎ <span title="bevat 0 ondercategorieën, 3 pagina&#039;s en 0 bestanden" dir="ltr">(3 P)</span></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</li></ul><h3>P</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Categorie:Penoza">Penoza</a>‎ <span title="bevat 0 ondercategorieën, 3 pagina&#039;s en 0 bestanden" dir="ltr">(3 P)</span></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</li></ul><h3>W</h3>
+<ul><li><div class="CategoryTreeSection"><div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet">► </span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="/wiki/Categorie:Westenwind">Westenwind</a>‎ <span title="bevat 0 ondercategorieën, 8 pagina&#039;s en 0 bestanden" dir="ltr">(8 P)</span></div>
+		<div class="CategoryTreeChildren" style="display:none"></div></div>
+		</li></ul></div>
+</div><div id="mw-pages">
+<h2>Artikelen in de categorie "Nederlandse dramaserie"</h2>
+<p>Deze categorie bevat de volgende 158 pagina’s, van in totaal 158.
+</p><div lang="nl" dir="ltr" class="mw-content-ltr"><div class="mw-category"><div class="mw-category-group"><h3>1</h3>
+<ul><li><a href="/wiki/12_steden,_13_ongelukken" title="12 steden, 13 ongelukken">12 steden, 13 ongelukken</a></li></ul></div><div class="mw-category-group"><h3>A</h3>
+<ul><li><a href="/wiki/A%27dam_-_E.V.A." title="A&#039;dam - E.V.A.">A&#039;dam - E.V.A.</a></li>
+<li><a href="/wiki/Allemaal_tuig!" title="Allemaal tuig!">Allemaal tuig!</a></li>
+<li><a href="/wiki/Annie_M.G." title="Annie M.G.">Annie M.G.</a></li>
+<li><a href="/wiki/De_Appelgaard" title="De Appelgaard">De Appelgaard</a></li></ul></div><div class="mw-category-group"><h3>B</h3>
+<ul><li><a href="/wiki/B.A.B.S." title="B.A.B.S.">B.A.B.S.</a></li>
+<li><a href="/wiki/Baas_Boppe_Baas" title="Baas Boppe Baas">Baas Boppe Baas</a></li>
+<li><a href="/wiki/Bagels_%26_Bubbels" title="Bagels &amp; Bubbels">Bagels &amp; Bubbels</a></li>
+<li><a href="/wiki/Bartje" title="Bartje">Bartje</a></li>
+<li><a href="/wiki/Beatrix,_Oranje_onder_vuur" title="Beatrix, Oranje onder vuur">Beatrix, Oranje onder vuur</a></li>
+<li><a href="/wiki/Bellicher" title="Bellicher">Bellicher</a></li>
+<li><a href="/wiki/Bernhard,_schavuit_van_Oranje" title="Bernhard, schavuit van Oranje">Bernhard, schavuit van Oranje</a></li>
+<li><a href="/wiki/Bit_(televisieserie)" title="Bit (televisieserie)">Bit (televisieserie)</a></li>
+<li><a href="/wiki/Bloedverwanten" title="Bloedverwanten">Bloedverwanten</a></li>
+<li><a href="/wiki/Bluf_(televisieserie)" title="Bluf (televisieserie)">Bluf (televisieserie)</a></li>
+<li><a href="/wiki/Boerin_in_Frankrijk" title="Boerin in Frankrijk">Boerin in Frankrijk</a></li>
+<li><a href="/wiki/Boven_Wotter" title="Boven Wotter">Boven Wotter</a></li>
+<li><a href="/wiki/Briefgeheim_(televisieserie)" title="Briefgeheim (televisieserie)">Briefgeheim (televisieserie)</a></li>
+<li><a href="/wiki/De_Brug_(miniserie)" title="De Brug (miniserie)">De Brug (miniserie)</a></li>
+<li><a href="/wiki/Bruin_Goud" title="Bruin Goud">Bruin Goud</a></li>
+<li><a href="/wiki/Brussel_(televisieserie)" title="Brussel (televisieserie)">Brussel (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>C</h3>
+<ul><li><a href="/wiki/Celblok_H" title="Celblok H">Celblok H</a></li>
+<li><a href="/wiki/Centraal_Medisch_Centrum" title="Centraal Medisch Centrum">Centraal Medisch Centrum</a></li>
+<li><a href="/wiki/Charlie_(televisieserie)" title="Charlie (televisieserie)">Charlie (televisieserie)</a></li>
+<li><a href="/wiki/De_club_(dramaserie)" title="De club (dramaserie)">De club (dramaserie)</a></li>
+<li><a href="/wiki/De_Co-assistent" title="De Co-assistent">De Co-assistent</a></li>
+<li><a href="/wiki/Combat_(televisieserie)" title="Combat (televisieserie)">Combat (televisieserie)</a></li>
+<li><a href="/wiki/Coverstory_(televisieserie)" title="Coverstory (televisieserie)">Coverstory (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>D</h3>
+<ul><li><a href="/wiki/Dagboek_van_een_herdershond" title="Dagboek van een herdershond">Dagboek van een herdershond</a></li>
+<li><a href="/wiki/De_Dageraad_(televisieserie)" title="De Dageraad (televisieserie)">De Dageraad (televisieserie)</a></li>
+<li><a href="/wiki/Dankert_en_Dankert" title="Dankert en Dankert">Dankert en Dankert</a></li>
+<li><a href="/wiki/Danni_Lowinski_(Nederlandse_televisieserie)" title="Danni Lowinski (Nederlandse televisieserie)">Danni Lowinski (Nederlandse televisieserie)</a></li>
+<li><a href="/wiki/De_Afdeling" title="De Afdeling">De Afdeling</a></li>
+<li><a href="/wiki/De_Deal_(televisieserie)" title="De Deal (televisieserie)">De Deal (televisieserie)</a></li>
+<li><a href="/wiki/De_Fractie" title="De Fractie">De Fractie</a></li>
+<li><a href="/wiki/De_kleine_zielen" title="De kleine zielen">De kleine zielen</a></li>
+<li><a href="/wiki/De_Maatschap" title="De Maatschap">De Maatschap</a></li>
+<li><a href="/wiki/De_ontmaskering_van_de_Vastgoedfraude" title="De ontmaskering van de Vastgoedfraude">De ontmaskering van de Vastgoedfraude</a></li>
+<li><a href="/wiki/De_Prooi_(televisieserie)" title="De Prooi (televisieserie)">De Prooi (televisieserie)</a></li>
+<li><a href="/wiki/Den_Uyl_en_de_affaire_Lockheed" title="Den Uyl en de affaire Lockheed">Den Uyl en de affaire Lockheed</a></li>
+<li><a href="/wiki/Diamant_(Nederlandse_televisieserie)" title="Diamant (Nederlandse televisieserie)">Diamant (Nederlandse televisieserie)</a></li>
+<li><a href="/wiki/Divorce" title="Divorce">Divorce</a></li>
+<li><a href="/wiki/Dokter_Deen" title="Dokter Deen">Dokter Deen</a></li>
+<li><a href="/wiki/Dokter_Tinus" title="Dokter Tinus">Dokter Tinus</a></li>
+<li><a href="/wiki/Dossier_Verhulst" title="Dossier Verhulst">Dossier Verhulst</a></li>
+<li><a href="/wiki/Dubbelleven_(Nederlandse_televisieserie)" title="Dubbelleven (Nederlandse televisieserie)">Dubbelleven (Nederlandse televisieserie)</a></li>
+<li><a href="/wiki/Dunya_%26_Desie" title="Dunya &amp; Desie">Dunya &amp; Desie</a></li>
+<li><a href="/wiki/Dynastie_der_kleine_luyden" title="Dynastie der kleine luyden">Dynastie der kleine luyden</a></li></ul></div><div class="mw-category-group"><h3>E</h3>
+<ul><li><a href="/wiki/De_eenzame_oorlog_van_Koos_Tak" title="De eenzame oorlog van Koos Tak">De eenzame oorlog van Koos Tak</a></li>
+<li><a href="/wiki/De_Erfenis" title="De Erfenis">De Erfenis</a></li>
+<li><a href="/wiki/Evelien_(televisieserie)" title="Evelien (televisieserie)">Evelien (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>F</h3>
+<ul><li><a href="/wiki/De_Fabriek" title="De Fabriek">De Fabriek</a></li>
+<li><a href="/wiki/Fashion_Planet" title="Fashion Planet">Fashion Planet</a></li>
+<li><a href="/wiki/Feuten" title="Feuten">Feuten</a></li>
+<li><a href="/wiki/Ff_moeve" title="Ff moeve">Ff moeve</a></li>
+<li><a href="/wiki/Floor_Faber" title="Floor Faber">Floor Faber</a></li>
+<li><a href="/wiki/Flow_(televisieserie)" title="Flow (televisieserie)">Flow (televisieserie)</a></li>
+<li><a href="/wiki/Fok_jou!" title="Fok jou!">Fok jou!</a></li>
+<li><a href="/wiki/De_Fuik_(televisieserie)" title="De Fuik (televisieserie)">De Fuik (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>G</h3>
+<ul><li><a href="/wiki/Een_galerij:_De_wanhoop_van_de_sirene" title="Een galerij: De wanhoop van de sirene">Een galerij: De wanhoop van de sirene</a></li>
+<li><a href="/wiki/Geen_probleem!" title="Geen probleem!">Geen probleem!</a></li>
+<li><a href="/wiki/Het_geheime_dagboek_van_Hendrik_Groen" title="Het geheime dagboek van Hendrik Groen">Het geheime dagboek van Hendrik Groen</a></li>
+<li><a href="/wiki/De_Glazen_Stad" title="De Glazen Stad">De Glazen Stad</a></li>
+<li><a href="/wiki/Goedenavond_Dames_en_Heren" title="Goedenavond Dames en Heren">Goedenavond Dames en Heren</a></li>
+<li><a href="/wiki/Gooische_Vrouwen_(televisieserie)" title="Gooische Vrouwen (televisieserie)">Gooische Vrouwen (televisieserie)</a></li>
+<li><a href="/wiki/Gouden_Bergen_(televisieserie,_2015)" title="Gouden Bergen (televisieserie, 2015)">Gouden Bergen (televisieserie, 2015)</a></li></ul></div><div class="mw-category-group"><h3>H</h3>
+<ul><li><a href="/wiki/Hart_tegen_Hard" title="Hart tegen Hard">Hart tegen Hard</a></li>
+<li><a href="/wiki/De_Hemelpaort" title="De Hemelpaort">De Hemelpaort</a></li>
+<li><a href="/wiki/Herenstraat_10" title="Herenstraat 10">Herenstraat 10</a></li>
+<li><a href="/wiki/Hertenkamp_(televisieserie)" title="Hertenkamp (televisieserie)">Hertenkamp (televisieserie)</a></li>
+<li><a href="/wiki/Het_imperium" title="Het imperium">Het imperium</a></li>
+<li><a href="/wiki/Hoe_duur_was_de_suiker_(film)" title="Hoe duur was de suiker (film)">Hoe duur was de suiker (film)</a></li>
+<li><a href="/wiki/Hollands_Glorie_(televisieserie)" title="Hollands Glorie (televisieserie)">Hollands Glorie (televisieserie)</a></li>
+<li><a href="/wiki/Hollands_Hoop" title="Hollands Hoop">Hollands Hoop</a></li>
+<li><a href="/wiki/De_hoofdprijs" title="De hoofdprijs">De hoofdprijs</a></li></ul></div><div class="mw-category-group"><h3>I</h3>
+<ul><li><a href="/wiki/IC_(televisieserie)" title="IC (televisieserie)">IC (televisieserie)</a></li>
+<li><a href="/wiki/In_de_praktijk" title="In de praktijk">In de praktijk</a></li>
+<li><a href="/wiki/In_naam_der_Koningin_(televisieserie)" title="In naam der Koningin (televisieserie)">In naam der Koningin (televisieserie)</a></li>
+<li><a href="/wiki/Iris_(televisieserie)" title="Iris (televisieserie)">Iris (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>J</h3>
+<ul><li><a href="/wiki/Johan:_logisch_is_anders" title="Johan: logisch is anders">Johan: logisch is anders</a></li>
+<li><a href="/wiki/Juliana_(televisieserie)" title="Juliana (televisieserie)">Juliana (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>K</h3>
+<ul><li><a href="/wiki/Klaverweide" title="Klaverweide">Klaverweide</a></li>
+<li><a href="/wiki/De_kleine_waarheid" title="De kleine waarheid">De kleine waarheid</a></li>
+<li><a href="/wiki/Klem_(televisieserie)" title="Klem (televisieserie)">Klem (televisieserie)</a></li>
+<li><a href="/wiki/De_klop_op_de_deur" title="De klop op de deur">De klop op de deur</a></li>
+<li><a href="/wiki/Koning_van_de_Maas" title="Koning van de Maas">Koning van de Maas</a></li>
+<li><a href="/wiki/Koppels" title="Koppels">Koppels</a></li></ul></div><div class="mw-category-group"><h3>L</h3>
+<ul><li><a href="/wiki/La_Famiglia_(televisieserie)" title="La Famiglia (televisieserie)">La Famiglia (televisieserie)</a></li>
+<li><a href="/wiki/De_Legende_van_de_Bokkerijders" title="De Legende van de Bokkerijders">De Legende van de Bokkerijders</a></li>
+<li><a href="/wiki/Levenslied_(televisieserie)" title="Levenslied (televisieserie)">Levenslied (televisieserie)</a></li>
+<li><a href="/wiki/Lijn_32" title="Lijn 32">Lijn 32</a></li>
+<li><a href="/wiki/Link_(televisieserie)" title="Link (televisieserie)">Link (televisieserie)</a></li>
+<li><a href="/wiki/Lotte_(televisieserie)" title="Lotte (televisieserie)">Lotte (televisieserie)</a></li>
+<li><a href="/wiki/Love_Hurts_(televisieserie)" title="Love Hurts (televisieserie)">Love Hurts (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>M</h3>
+<ul><li><a href="/wiki/De_mannentester_(televisieserie)" title="De mannentester (televisieserie)">De mannentester (televisieserie)</a></li>
+<li><a href="/wiki/Medea_(televisieserie)" title="Medea (televisieserie)">Medea (televisieserie)</a></li>
+<li><a href="/wiki/Meiden_van_de_Herengracht" title="Meiden van de Herengracht">Meiden van de Herengracht</a></li>
+<li><a href="/wiki/Meiden_van_De_Wit" title="Meiden van De Wit">Meiden van De Wit</a></li>
+<li><a href="/wiki/Het_meisje_met_de_blauwe_hoed" title="Het meisje met de blauwe hoed">Het meisje met de blauwe hoed</a></li>
+<li><a href="/wiki/Meisje_van_plezier_(televisieserie)" title="Meisje van plezier (televisieserie)">Meisje van plezier (televisieserie)</a></li>
+<li><a href="/wiki/Memorandum_van_een_dokter" title="Memorandum van een dokter">Memorandum van een dokter</a></li>
+<li><a href="/wiki/Mensen_zoals_jij_en_ik" title="Mensen zoals jij en ik">Mensen zoals jij en ik</a></li>
+<li><a href="/wiki/Mixed_Up_(televisieserie)" title="Mixed Up (televisieserie)">Mixed Up (televisieserie)</a></li>
+<li><a href="/wiki/Moeder,_ik_wil_bij_de_Revue" title="Moeder, ik wil bij de Revue">Moeder, ik wil bij de Revue</a></li>
+<li><a href="/wiki/Mouna%27s_Keuken" title="Mouna&#039;s Keuken">Mouna&#039;s Keuken</a></li></ul></div><div class="mw-category-group"><h3>N</h3>
+<ul><li><a href="/wiki/Nachtegaal_en_Zonen" title="Nachtegaal en Zonen">Nachtegaal en Zonen</a></li>
+<li><a href="/wiki/Najib_en_Julia" title="Najib en Julia">Najib en Julia</a></li>
+<li><a href="/wiki/Nieuwe_buren_(televisieserie,_2014)" title="Nieuwe buren (televisieserie, 2014)">Nieuwe buren (televisieserie, 2014)</a></li></ul></div><div class="mw-category-group"><h3>O</h3>
+<ul><li><a href="/wiki/Oud_Geld" title="Oud Geld">Oud Geld</a></li>
+<li><a href="/wiki/Overspel_(televisieserie)" title="Overspel (televisieserie)">Overspel (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>P</h3>
+<ul><li><a href="/wiki/De_Partizanen_(televisieserie)" title="De Partizanen (televisieserie)">De Partizanen (televisieserie)</a></li>
+<li><a href="/wiki/Pauwen_en_Reigers" title="Pauwen en Reigers">Pauwen en Reigers</a></li>
+<li><a href="/wiki/Petticoat_(televisieserie)" title="Petticoat (televisieserie)">Petticoat (televisieserie)</a></li>
+<li><a href="/wiki/Pleidooi_(televisieserie)" title="Pleidooi (televisieserie)">Pleidooi (televisieserie)</a></li>
+<li><a href="/wiki/De_Prins_en_het_Meisje" title="De Prins en het Meisje">De Prins en het Meisje</a></li>
+<li><a href="/wiki/Project_Orpheus" title="Project Orpheus">Project Orpheus</a></li></ul></div><div class="mw-category-group"><h3>R</h3>
+<ul><li><a href="/wiki/Ramses_(televisieserie)" title="Ramses (televisieserie)">Ramses (televisieserie)</a></li>
+<li><a href="/wiki/De_Rooie_Draad" title="De Rooie Draad">De Rooie Draad</a></li>
+<li><a href="/wiki/Rozengeur_%26_Wodka_Lime" title="Rozengeur &amp; Wodka Lime">Rozengeur &amp; Wodka Lime</a></li></ul></div><div class="mw-category-group"><h3>S</h3>
+<ul><li><a href="/wiki/Sil_de_Strandjutter" title="Sil de Strandjutter">Sil de Strandjutter</a></li>
+<li><a href="/wiki/Spijkerhoek" title="Spijkerhoek">Spijkerhoek</a></li>
+<li><a href="/wiki/Sprint!" title="Sprint!">Sprint!</a></li>
+<li><a href="/wiki/StartUp" title="StartUp">StartUp</a></li>
+<li><a href="/wiki/Stellenbosch_(televisieserie)" title="Stellenbosch (televisieserie)">Stellenbosch (televisieserie)</a></li>
+<li><a href="/wiki/De_Stille_Kracht_(televisieserie)" title="De Stille Kracht (televisieserie)">De Stille Kracht (televisieserie)</a></li>
+<li><a href="/wiki/Suspects_(RTL)" title="Suspects (RTL)">Suspects (RTL)</a></li>
+<li><a href="/wiki/Switch_(televisieserie)" title="Switch (televisieserie)">Switch (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>T</h3>
+<ul><li><a href="/wiki/Julia%27s_Tango" title="Julia&#039;s Tango">Julia&#039;s Tango</a></li>
+<li><a href="/wiki/Tessa_(televisieserie)" title="Tessa (televisieserie)">Tessa (televisieserie)</a></li>
+<li><a href="/wiki/De_Troon" title="De Troon">De Troon</a></li>
+<li><a href="/wiki/Tussen_wal_en_schip" title="Tussen wal en schip">Tussen wal en schip</a></li></ul></div><div class="mw-category-group"><h3>V</h3>
+<ul><li><a href="/wiki/Van_God_Los_(televisieserie)" title="Van God Los (televisieserie)">Van God Los (televisieserie)</a></li>
+<li><a href="/wiki/Van_Jonge_Leu_en_Oale_Groond" title="Van Jonge Leu en Oale Groond">Van Jonge Leu en Oale Groond</a></li>
+<li><a href="/wiki/Van_oude_mensen,_de_dingen_die_voorbijgaan_(televisieserie)" title="Van oude mensen, de dingen die voorbijgaan (televisieserie)">Van oude mensen, de dingen die voorbijgaan (televisieserie)</a></li>
+<li><a href="/wiki/Van_Speijk_(televisieserie)" title="Van Speijk (televisieserie)">Van Speijk (televisieserie)</a></li>
+<li><a href="/wiki/Vechtershart" title="Vechtershart">Vechtershart</a></li>
+<li><a href="/wiki/Verborgen_Gebreken_(dramaserie)" title="Verborgen Gebreken (dramaserie)">Verborgen Gebreken (dramaserie)</a></li>
+<li><a href="/wiki/Vlucht_HS13" title="Vlucht HS13">Vlucht HS13</a></li>
+<li><a href="/wiki/Voetbalvrouwen" title="Voetbalvrouwen">Voetbalvrouwen</a></li>
+<li><a href="/wiki/Volgens_Robert" title="Volgens Robert">Volgens Robert</a></li>
+<li><a href="/wiki/Voor_hete_vuren" title="Voor hete vuren">Voor hete vuren</a></li>
+<li><a href="/wiki/Vrouwenvleugel" title="Vrouwenvleugel">Vrouwenvleugel</a></li>
+<li><a href="/wiki/Vuurzee" title="Vuurzee">Vuurzee</a></li></ul></div><div class="mw-category-group"><h3>W</h3>
+<ul><li><a href="/wiki/Waaldrecht" title="Waaldrecht">Waaldrecht</a></li>
+<li><a href="/wiki/Waltz" title="Waltz">Waltz</a></li>
+<li><a href="/wiki/Het_wassende_water_(televisieserie)" title="Het wassende water (televisieserie)">Het wassende water (televisieserie)</a></li>
+<li><a href="/wiki/Weemoedt_(televisieserie)" title="Weemoedt (televisieserie)">Weemoedt (televisieserie)</a></li>
+<li><a href="/wiki/De_Weg" title="De Weg">De Weg</a></li>
+<li><a href="/wiki/Westenwind_(televisieserie)" title="Westenwind (televisieserie)">Westenwind (televisieserie)</a></li>
+<li><a href="/wiki/Wet_%26_Waan" title="Wet &amp; Waan">Wet &amp; Waan</a></li>
+<li><a href="/wiki/Wij_Alexander" title="Wij Alexander">Wij Alexander</a></li>
+<li><a href="/wiki/Wilhelmina_(televisieserie)" title="Wilhelmina (televisieserie)">Wilhelmina (televisieserie)</a></li>
+<li><a href="/wiki/Willem_van_Oranje_(televisieserie)" title="Willem van Oranje (televisieserie)">Willem van Oranje (televisieserie)</a></li>
+<li><a href="/wiki/De_Winkel" title="De Winkel">De Winkel</a></li>
+<li><a href="/wiki/Wolfseinde_(televisieserie)" title="Wolfseinde (televisieserie)">Wolfseinde (televisieserie)</a></li></ul></div><div class="mw-category-group"><h3>Z</h3>
+<ul><li><a href="/wiki/%27t_Zal_je_gebeuren..." title="&#039;t Zal je gebeuren...">&#039;t Zal je gebeuren...</a></li>
+<li><a href="/wiki/De_zomer_van_%2745" title="De zomer van &#039;45">De zomer van &#039;45</a></li>
+<li><a href="/wiki/Zwarte_Tulp_(televisieserie)" title="Zwarte Tulp (televisieserie)">Zwarte Tulp (televisieserie)</a></li></ul></div></div></div>
+</div></div><noscript><img src="//nl.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Overgenomen van "<a dir="ltr" href="https://nl.wikipedia.org/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;oldid=38110138">https://nl.wikipedia.org/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;oldid=38110138</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Categorie:Alles" title="Categorie:Alles">Categorieën</a>: <ul><li><a href="/wiki/Categorie:Dramaserie_naar_land" title="Categorie:Dramaserie naar land">Dramaserie naar land</a></li><li><a href="/wiki/Categorie:Nederlandse_televisieserie" title="Categorie:Nederlandse televisieserie">Nederlandse televisieserie</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigatiemenu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Persoonlijke instellingen</h3>
+						<ul>
+							<li id="pt-anonuserpage">Niet aangemeld</li><li id="pt-anontalk"><a href="/wiki/Speciaal:MijnOverleg" title="Overlegpagina van de anonieme gebruiker van dit IP-adres [n]" accesskey="n">Overleg</a></li><li id="pt-anoncontribs"><a href="/wiki/Speciaal:MijnBijdragen" title="Bijdragen IP-adres [y]" accesskey="y">Bijdragen</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Speciaal:GebruikerAanmaken&amp;returnto=Categorie%3ANederlandse+dramaserie" title="Registreer u vooral en meld u aan. Dit is echter niet vereist.">Registreren</a></li><li id="pt-login"><a href="/w/index.php?title=Speciaal:Aanmelden&amp;returnto=Categorie%3ANederlandse+dramaserie" title="U wordt van harte uitgenodigd om aan te melden, maar dit is niet verplicht [o]" accesskey="o">Aanmelden</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Naamruimten</h3>
+						<ul>
+							<li id="ca-nstab-category" class="selected"><span><a href="/wiki/Categorie:Nederlandse_dramaserie" title="Categoriepagina bekijken [c]" accesskey="c">Categorie</a></span></li><li id="ca-talk" class="new"><span><a href="/w/index.php?title=Overleg_categorie:Nederlandse_dramaserie&amp;action=edit&amp;redlink=1" rel="discussion" title="Overleg over deze pagina [t]" accesskey="t">Overleg</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Varianten</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Weergaven</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/wiki/Categorie:Nederlandse_dramaserie">Lezen</a></span></li><li id="ca-edit" class="collapsible"><span><a href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;action=edit" title="Deze pagina bewerken [e]" accesskey="e">Bewerken</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;action=history" title="Eerdere versies van deze pagina [h]" accesskey="h">Geschiedenis</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Meer</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Zoeken</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Doorzoek Wikipedia" title="Doorzoek Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Speciaal:Zoeken" name="title"/><input type="submit" name="fulltext" value="Zoeken" title="Doorzoek alle pagina&#039;s op deze tekst" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Artikel" title="Direct naar een pagina met deze naam" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Hoofdpagina"  title="Naar de hoofdpagina gaan"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigatie</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage"><a href="/wiki/Hoofdpagina" title="Naar de hoofdpagina gaan [z]" accesskey="z">Hoofdpagina</a></li><li id="n-zoekartikel"><a href="/wiki/Portaal:Navigatie">Vind een artikel</a></li><li id="n-today"><a href="/wiki/15_december">Vandaag</a></li><li id="n-Etalage"><a href="/wiki/Wikipedia:Etalage">Etalage</a></li><li id="n-categories"><a href="/wiki/Categorie:Alles">Categorieën</a></li><li id="n-recentchanges"><a href="/wiki/Speciaal:RecenteWijzigingen" title="Een lijst met recente wijzigingen in deze wiki. [r]" accesskey="r">Recente wijzigingen</a></li><li id="n-newpages"><a href="/wiki/Speciaal:NieuwePaginas">Nieuwe artikelen</a></li><li id="n-randompage"><a href="/wiki/Speciaal:Willekeurig" title="Een willekeurige pagina bekijken [x]" accesskey="x">Willekeurige pagina</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-navigation2' aria-labelledby='p-navigation2-label'>
+			<h3 id='p-navigation2-label'>Informatie</h3>
+			<div class="body">
+								<ul>
+					<li id="n-portal"><a href="/wiki/Portaal:Gebruikersportaal" title="Informatie over het project: wat u kunt doen, waar u dingen kunt vinden">Gebruikersportaal</a></li><li id="n-Snelcursus"><a href="/wiki/Wikipedia:Snelcursus">Snelcursus</a></li><li id="n-help"><a href="/wiki/Portaal:Hulp_en_beheer" title="Hulpinformatie over deze wiki">Hulp en contact</a></li><li id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_nl.wikipedia.org&amp;uselang=nl" title="Ondersteun ons financieel">Donaties</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Hulpmiddelen</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Speciaal:VerwijzingenNaarHier/Categorie:Nederlandse_dramaserie" title="Lijst met alle pagina&#039;s die naar deze pagina verwijzen [j]" accesskey="j">Links naar deze pagina</a></li><li id="t-recentchangeslinked"><a href="/wiki/Speciaal:RecenteWijzigingenGelinkt/Categorie:Nederlandse_dramaserie" rel="nofollow" title="Recente wijzigingen in pagina&#039;s waar deze pagina naar verwijst [k]" accesskey="k">Verwante wijzigingen</a></li><li id="t-upload"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=nl" title="Bestanden uploaden [u]" accesskey="u">Bestand uploaden</a></li><li id="t-specialpages"><a href="/wiki/Speciaal:SpecialePaginas" title="Lijst met alle speciale pagina&#039;s [q]" accesskey="q">Speciale pagina's</a></li><li id="t-permalink"><a href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;oldid=38110138" title="Permanente koppeling naar deze versie van de pagina">Permanente koppeling</a></li><li id="t-info"><a href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;action=info" title="Meer informatie over deze pagina">Paginagegevens</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8394110" title="Koppeling naar item in verbonden gegevensrepository [g]" accesskey="g">Wikidata-item</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Afdrukken/exporteren</h3>
+			<div class="body">
+								<ul>
+					<li id="coll-create_a_book"><a href="/w/index.php?title=Speciaal:Boek&amp;bookcmd=book_creator&amp;referer=Categorie%3ANederlandse+dramaserie">Boek maken</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Speciaal:ElectronPdf&amp;page=Categorie%3ANederlandse+dramaserie&amp;action=show-download-screen">Downloaden als PDF</a></li><li id="t-print"><a href="/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;printable=yes" title="Printvriendelijke versie van deze pagina [p]" accesskey="p">Printvriendelijke versie</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>In andere talen</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-en"><a href="https://en.wikipedia.org/wiki/Category:Dutch_drama_television_series" title="Category:Dutch drama television series – Engels" lang="en" hreflang="en" class="interlanguage-link-target">English</a></li>				</ul>
+				<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8394110#sitelinks-wikipedia" title="Intertaalkoppelingen bewerken" class="wbc-editpage">Koppelingen bewerken</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> Deze pagina is voor het laatst bewerkt op 18 jun 2013 om 01:39.</li>
+								<li id="footer-info-copyright">De tekst is beschikbaar onder de licentie <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.nl">Creative Commons Naamsvermelding/Gelijk delen</a>, er kunnen aanvullende voorwaarden van toepassing zijn. Zie de <a href="//wikimediafoundation.org/wiki/Gebruiksvoorwaarden">gebruiksvoorwaarden</a> voor meer informatie.<br/> Wikipedia&reg; is een geregistreerd handelsmerk van de <a href="http://www.wikimediafoundation.org">Wikimedia Foundation, Inc.</a>, een organisatie zonder winstoogmerk.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacybeleid</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wikipedia" title="Wikipedia">Over Wikipedia</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:Algemeen_voorbehoud" title="Wikipedia:Algemeen voorbehoud">Voorbehoud</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Ontwikkelaars</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookiesverklaring</a></li>
+								<li id="footer-places-mobileview"><a href="//nl.m.wikipedia.org/w/index.php?title=Categorie:Nederlandse_dramaserie&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobiele weergave</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.028","walltime":"0.035","ppvisitednodes":{"value":47,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2753,"limit":2097152},"templateargumentsize":{"value":12,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%   27.643      1 Sjabloon:Broodkruimel","100.00%   27.643      1 -total","  4.68%    1.293      1 Sjabloon:Broodkruimel/filmicoon"]},"scribunto":{"limitreport-timeusage":{"value":"0.008","limit":"10.000"},"limitreport-memusage":{"value":620693,"limit":52428800}},"cachereport":{"origin":"mw1321","timestamp":"20171201065419","ttl":1900800,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":88,"wgHostname":"mw1255"});});</script>
+	</body>
+</html>
