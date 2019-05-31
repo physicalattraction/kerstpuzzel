@@ -12,5 +12,5 @@ class Top2000:
 if __name__ == '__main__':
     top = Top2000()
     for song in top.top2000:
-        if song.count(' ') == 2:
+        if song.count(' ') == 3 and song.split(' ')[2] == 'You':
             print(song)

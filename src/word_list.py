@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 import os
 
 from utils import clean_word
@@ -21,8 +23,12 @@ class WordList:
             word_lists = [word_lists]
 
         if word_lists is None:
-            word_lists = []
+            word_lists = [self.DUTCH_WORDS]
         self.word_lists = word_lists
+
+        self.words_per_letter_count = defaultdict(set)
+        for word in self:
+            self.words_per_letter_count[len(word)].add(word)
 
     def __iter__(self):
         for word_list in self.word_lists:
@@ -42,11 +48,23 @@ class WordList:
                 f.write('\n'.join(result))
 
 
+def search_acronym(word_list: WordList, acronym: str) -> [str]:
+    found_acronyms = []
+    for word in word_list:
+        split_word = word.split(' ')
+        if len(split_word) == len(acronym) and all([split_word[x][0] == acronym[x] for x in range(len(acronym))]):
+            found_acronyms.append(word)
+    return found_acronyms
+
+
 if __name__ == '__main__':
     wl = WordList()
     # wl.clean_original('LijstNederlandseBands.txt', 'dutch_bands.txt', allowed_chars=' ')
-    wl.clean_original('Died2017.txt', 'died2017.txt', allowed_chars=' ')
+    # wl.clean_original('Died2017.txt', 'died2017.txt', allowed_chars=' ')
 
-    # wl = WordList(['dutch_bands'])
+    wl = WordList([WordList.DUTCH_MOVIES])
+    print(search_acronym(wl, 'lb'))
     # for word in wl:
-    #     print(word)
+    #     split_word = word.split(' ')
+    #     if len(split_word) == 2 and split_word[0][0] == 'f' and split_word[1][0] == 'c':
+    #         print(word)

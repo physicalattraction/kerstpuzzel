@@ -1,5 +1,3 @@
-import copy
-
 from utils import clean_word
 from word_list import WordList
 
@@ -109,8 +107,8 @@ def reverse_subsequent_square(string: str):
 
 solutions = []
 # words_so_far = ['met', 'een', 'verbinding', 'met', 'het', 'vasteland']
-words_so_far = ['met', ]
-
+words_so_far = ['met', 'het', 'sluiten', 'van', 'de', 'knardijk']
+words_so_far = 'MET HET SLUITEN VAN DE KNARDIJK HEEFT HET EILANDJE NU OOK EEN VERBINDING MET HET'.lower().split(' ')
 
 def length_words_so_far():
     return sum([len(word) for word in words_so_far])
@@ -150,13 +148,14 @@ def judge_string(string: str, words_so_far: [str], ends_with_t:bool=True):
 if __name__ == '__main__':
     # print(next_letters(''.join(['me'])))
     # print(length_words_so_far())
-    # iterate_possibilities(''.join(words_so_far))
+    iterate_possibilities(''.join(words_so_far))
+    print(next_letters('MET HET SLUITEN VAN DE KNARDIJK HEEFT HET EILANDJE NU OOK EEN VERBINDING MET HET VASTELAND'.lower().replace(' ', '')))
     # judge_string('meteenanderefteijekelandilandindjkhengmenuinvetherbitethetsluoknvasthetvard', ['met', 'een'])
-    wl = WordList('dutch_words')
-    long_words = ['vals', 'zwam']
-    for word in wl:
-        if len(word) == 24:
-            long_words.append(word)
-    long_words = sorted(long_words)
-    for w in long_words:
-        print(w)
+    # wl = WordList('dutch_words')
+    # long_words = ['vals', 'zwam']
+    # for word in wl:
+    #     if len(word) == 24:
+    #         long_words.append(word)
+    # long_words = sorted(long_words)
+    # for w in long_words:
+    #     print(w)

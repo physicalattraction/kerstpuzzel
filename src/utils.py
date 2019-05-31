@@ -1,7 +1,7 @@
 import re
 
 
-def clean_word(word:str, allowed_chars:str='') -> str:
+def clean_word(word: str, allowed_chars: str = '') -> str:
     # allowed_chars = allowed_chars.replace('.', '\.') # TODO: Fix for dots
     regexp = '[^\w{}]'.format(allowed_chars)
     result = re.sub(regexp, '', word).lower()

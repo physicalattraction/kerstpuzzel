@@ -1,10 +1,13 @@
 import string
 from collections import OrderedDict
 
+from word_list import WordList
+
 
 class KeyWordSubstitution:
     def __init__(self):
         self.permutation_dict = OrderedDict()
+        self.wordlist = set(WordList(WordList.DUTCH_WORDS))
 
     def create_permutation_dict(self, keyword: str):
         alphabet = string.ascii_uppercase
@@ -28,13 +31,13 @@ class KeyWordSubstitution:
                 self.permutation_dict[letter] = dst_letter
                 used_letters.add(letter)
 
-        self._print_permutation_dict()
+        # self._print_permutation_dict()
 
     def _print_permutation_dict(self):
         print(''.join(list(self.permutation_dict.keys())))
         print(''.join(list(self.permutation_dict.values())))
 
-    def permute_message(self, original_msg):
+    def permute_message(self, original_msg:str):
         original_msg = original_msg.upper()
         permuted_letters = []
         for x in original_msg:
@@ -43,18 +46,23 @@ class KeyWordSubstitution:
             else:
                 permuted_letters.append(x)
         # print(original_msg)
-        print(''.join(permuted_letters))
+        result = ''.join(permuted_letters)
+        return result
+
+    def permute_message_useful_word(self, original_msg:str):
+        result = self.permute_message(original_msg)
+        split_result = result.split(' ')
+        if any([word in self.wordlist for word in split_result]):
+            print(original_msg)
 
 
 if __name__ == '__main__':
     kws = KeyWordSubstitution()
-    kws.create_permutation_dict('hoogste berg')
-    print()
-    msg = 'CGTGIGPDGM, DAFAIHJCHNK, DGPKBPOAS ZSS, DIOOIOOIJJI, DQMMLY-GLMCIFE, FASUW-IUAFSG, ' \
-          'FGTJMGHSSN, FIVC, GBSXGFTSMSABGFT, HFYX, HGKJGHBUH, IKUJQ VAJPKJ, IMHHQ-RMAQQGFFAS, ' \
-          'IMHSFBGFT, LDLZHFS, LUJGHD CHYH, QBQBOGOGHSSN, RHMFSH, RJVSIHSSN, STJHFA, SYNSHSSN, ' \
-          'TFONKTP, TVTNTPQ, VBOQJNBGHSSN, VJPQJDHSSN, VLFEPOSBILFE, VUUMBGFT, WHCEL'
-    kws.permute_message(msg)
+    for person in kws.wordlist:
+        kws.create_permutation_dict(person)
+        # print('\n{}'.format(person))
+        msg = 'FDWJDIIH ENIDLEEK IZRLIXZN PJNEEBLX GYNDEJKE NQILJKED IPCPFDDH HSLICQYK'
+        kws.permute_message_useful_word(msg)
 
     # kws.permute_message('NZR NNFVYT QJG IWQN IQFLLNJQ')
     # kws.permute_message('XS UOOH VSH DOG NWSB OZG XS VSH RCCF VSPH')

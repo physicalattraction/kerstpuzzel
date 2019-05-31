@@ -2,15 +2,12 @@ import json
 import os
 import re
 import string
-from collections import defaultdict
 from itertools import permutations, combinations
-
-import math
 
 from utils import clean_word
 from word_list import WordList
 
-MIN_LENGTH = 4
+MIN_LENGTH = 3
 
 
 class AnagramSearcher:
@@ -31,9 +28,11 @@ class AnagramSearcher:
         return self.anagrams.get(key, [])
 
     def find_anagrams_multi_for(self, word: str) -> [str]:
+        # if not 'e' in word or not 'n' in word:
+        #     return []
         result = []
         cleaned_word = clean_word(word)
-        half_length = int(len(cleaned_word) / 2)
+        half_length = int(len(cleaned_word) / 3)
         min_length = max(half_length, MIN_LENGTH - 1)
         for word_length in range(len(cleaned_word), min_length, -1):
             for combination in combinations(cleaned_word, word_length):
@@ -51,13 +50,13 @@ class AnagramSearcher:
                         result += anagrams
         return sorted(set(result))
 
-    def find_anagrams_with_extra_letters_for(self, word: str, nr_extra_letters:int) -> [str]:
+    def find_anagrams_with_extra_letters_for(self, word: str, nr_extra_letters: int) -> [str]:
         found_anagrams = set()
 
         for permutation in permutations(' ' + string.ascii_lowercase, nr_extra_letters):
             extra_letters = ''.join(permutation)
             new_word = word + extra_letters
-            for found_anagram in self.find_anagrams_for(new_word):
+            for found_anagram in self.find_anagrams_multi_for(new_word):
                 found_anagrams.add(found_anagram)
         return sorted(found_anagrams)
 
@@ -94,16 +93,39 @@ class AnagramSearcher:
         for index, perm in enumerate(permutations(txt)):
             print('{}: {}'.format(index, ''.join(perm)))
 
+    def find_anagrams_for_pairs(self, list_of_words: [str]):
+        word_pairs = combinations(list_of_words, 2)
+        for pair in word_pairs:
+            input = pair[0] + pair[1]
+            # anagrams = self.find_anagrams_multi_for(input)
+            anagrams = self.find_anagrams_for(input)
+            if anagrams:
+                print('{}: ({}) {}'.format(pair, len(anagrams), anagrams[:30]))
+
 
 if __name__ == '__main__':
     anagram_searcher = AnagramSearcher()
+    # result = anagram_searcher.find_anagrams_multi_for('aaaaaaaaabbbcccddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffgggghiiiiiiijjllllllllmmmmmmnnnnnnnnnnnnnnnnnnnnnoooooooooppprrrrrrssssssstttttttttttttttuuuvvvwwwww')
+    result = anagram_searcher.find_anagrams_for('Beehbkea eted  lebare  n  ')
+    # result = anagram_searcher.find_anagrams_for('geestelijk')
+    print(result)
+    exit()
+
+    actors = ['ericbana', 'orlandobloom', 'bradpitt', 'wolfgangpetersen', 'JulianGlover','Nathan Jones', 'BrianCox','Adoni Maropis']
+    for actor in actors:
+        print(actor, anagram_searcher.find_anagrams_for(actor))
+
+    for band in WordList(WordList.DUTCH_BANDS):
+        anagrams = anagram_searcher.find_anagrams_for(band)
+        if len(anagrams) > 1:
+            print(band, anagrams)
     # anagram_searcher.index_anagrams_simple(WordList([WordList.DUTCH_MOVIES, WordList.DUTCH_BANDS]))
 
-    result = anagram_searcher.find_anagrams_multi_for('narcijferknik')
-    for word in result:
-        print(word)
-        if 'van' in word.split(' '):
-            print(word)
+    # result = anagram_searcher.find_anagrams_with_extra_letters_for('BGINPRSTU', nr_extra_letters=2)
+    # for word in result:
+    #     split_word = word.split(' ')
+    #     if len(split_word) == 3 and  'en' in split_word:
+    #         print(word)
 
     # dutch_bands = WordList(['dutch_bands'])
     # for band in dutch_bands:
@@ -118,12 +140,18 @@ if __name__ == '__main__':
                 'Coup Cru Ze, Fok Zo Kamer, Kweekte Wie Ooit, Alias Vilt Veer, Nachtmis Nulde Dun, ' \
                 'Vaan Durven Cacao, Leesvaardigheid Helpen Pitten, Rem Standaard Melden, Omtrent Nerd Daalder, ' \
                 'Schadevergoeding Want Tennist'.split(', ')
+    words_30 = 'ADAPTER, BAAS, BENDE, GENADE, LEIDEN, LENTEUI, MOLIERE, PIKKER, RICINE, RIFF, SATIRE, SCENE, SPEL, ' \
+               'STAAF, TOTEBEL, VAL, VENTER'.split(', ')
+    words_34c = 'BORREL, BRONS, CHIP, COOKER, DRAIN, FRISUUR, GAAR, GAVEN, KELT, LAMA, MARS, MASTINO, SMUL, TELER, ' \
+                'TRASSI'.split(', ')
+
+    # anagram_searcher.find_anagrams_for_pairs(words_34c)
 
     # for word in words_25b:
     #     anagrams = anagram_searcher.find_anagrams_multi_for(word)
     #     for anagram in anagrams:
     #         print('{} - {}'.format(word, anagram))
-    for word in words_13:
-        anagrams = anagram_searcher.find_anagrams_with_extra_letters_for(word, nr_extra_letters=4)
-        for anagram in anagrams:
-            print('{} - {}'.format(word, anagram))
+    # for word in words_3a:
+    #     anagrams = anagram_searcher.find_anagrams_with_extra_letters_for(word, nr_extra_letters=4)
+    #     for anagram in anagrams:
+    #         print('{} - {}'.format(word, anagram))
