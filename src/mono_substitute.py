@@ -43,6 +43,13 @@ class MonoSubstitute:
         print('{} {} woorden: {}{}'.format(original_word, len(good_words), ', '.join(good_words[:20]), postfix))
         return good_dicts
 
+    def mono_substitute_word_with_dict(self, original_word: str, letter_dict: {str: str}) -> str:
+        result = original_word.lower()
+        letter_dict = {k.lower(): v.upper() for k, v in letter_dict.items()}
+        for k, v in letter_dict.items():
+            result = result.replace(k, v)
+        return result
+
     def letter_dict_from_word_to_word(self, original_word: str, mapped_word: str) -> {str: str}:
         return {original_letter: mapped_word[i] for i, original_letter in enumerate(original_word)}
 
@@ -76,4 +83,9 @@ if __name__ == '__main__':
         ' ')
     msg = 'EMOE, WOND, BANK, TEAK, ZOET, FIJN, SHOW, CRON, GOED'.split(', ')
     msg = ['ENIGE', 'IQWRI']
-    ms.mono_substitute_words(msg)
+
+    msg = 'chakat ori mek som qazatthi chakat m’at torthi som mekthi zhinda som chakat ma sen qazat torthi chakat mek oritthi'
+
+    wl = WordList()
+    print('opgelost' in wl)
+    print('oplossen' in wl)

@@ -28,8 +28,6 @@ class AnagramSearcher:
         return self.anagrams.get(key, [])
 
     def find_anagrams_multi_for(self, word: str) -> [str]:
-        # if not 'e' in word or not 'n' in word:
-        #     return []
         result = []
         cleaned_word = clean_word(word)
         half_length = int(len(cleaned_word) / 3)
@@ -45,7 +43,7 @@ class AnagramSearcher:
                         if anagrams_from_left_word:
                             for current_anagram in anagrams:
                                 for anagram_from_left_word in anagrams_from_left_word:
-                                    result.append('{} {}'.format(current_anagram, anagram_from_left_word))
+                                    result.append(f'{current_anagram} {anagram_from_left_word}')
                     elif len(left_word) == 0:
                         result += anagrams
         return sorted(set(result))
@@ -74,7 +72,7 @@ class AnagramSearcher:
             if word not in result[key]:
                 result[key].append(word)
         with open(self.anagram_index_file, 'w+') as f:
-            print('Creating/updating file {}'.format(self.anagram_index_file))
+            print(f'Creating/updating file {self.anagram_index_file}')
             f.write(json.dumps(result, indent=4))
 
         # After writing the file, immediately read it in memory
@@ -91,13 +89,13 @@ class AnagramSearcher:
     def print_permutations(self, txt: str):
         txt = [letter for letter in txt.lower() if letter in string.ascii_lowercase]
         for index, perm in enumerate(permutations(txt)):
-            print('{}: {}'.format(index, ''.join(perm)))
+            perm_str = ''.join(perm)
+            print(f'{index}: {perm_str}')
 
     def find_anagrams_for_pairs(self, list_of_words: [str]):
         word_pairs = combinations(list_of_words, 2)
         for pair in word_pairs:
             input = pair[0] + pair[1]
-            # anagrams = self.find_anagrams_multi_for(input)
             anagrams = self.find_anagrams_for(input)
             if anagrams:
                 print('{}: ({}) {}'.format(pair, len(anagrams), anagrams[:30]))
@@ -105,21 +103,12 @@ class AnagramSearcher:
 
 if __name__ == '__main__':
     anagram_searcher = AnagramSearcher()
-    # result = anagram_searcher.find_anagrams_multi_for('aaaaaaaaabbbcccddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffgggghiiiiiiijjllllllllmmmmmmnnnnnnnnnnnnnnnnnnnnnoooooooooppprrrrrrssssssstttttttttttttttuuuvvvwwwww')
-    result = anagram_searcher.find_anagrams_for('Beehbkea eted  lebare  n  ')
-    # result = anagram_searcher.find_anagrams_for('geestelijk')
+    result = anagram_searcher.find_anagrams_multi_for('LJJSTTRTijjts')
+    print(result)
+    result = anagram_searcher.find_anagrams_multi_for('jamkullokmij')
     print(result)
     exit()
 
-    actors = ['ericbana', 'orlandobloom', 'bradpitt', 'wolfgangpetersen', 'JulianGlover','Nathan Jones', 'BrianCox','Adoni Maropis']
-    for actor in actors:
-        print(actor, anagram_searcher.find_anagrams_for(actor))
-
-    for band in WordList(WordList.DUTCH_BANDS):
-        anagrams = anagram_searcher.find_anagrams_for(band)
-        if len(anagrams) > 1:
-            print(band, anagrams)
-    # anagram_searcher.index_anagrams_simple(WordList([WordList.DUTCH_MOVIES, WordList.DUTCH_BANDS]))
 
     # result = anagram_searcher.find_anagrams_with_extra_letters_for('BGINPRSTU', nr_extra_letters=2)
     # for word in result:

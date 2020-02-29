@@ -9,7 +9,7 @@ import itertools
 from DictionaryDbManager import DictionaryManager
 
 
-class CaesarCode(object):
+class CaesarCode:
     def __init__(self):
         try:
             self.dm = DictionaryManager()
@@ -52,23 +52,6 @@ class CaesarCode(object):
                 next_shift[k] = one_shift[v]
             cur_shift = next_shift
             self.letter_shifts.append(cur_shift)
-
-            #         common_letters = ['A', 'E', 'I', 'O', 'U']
-            #         for h in common_letters:
-            #             for w in common_letters:
-            #                 if w is not h:
-            #                     for e in common_letters:
-            #                         if e is not h and e is not w:
-            #                             self.letter_shifts.append({'H': h,
-            #                                                        'W': w,
-            #                                                        'E': e})
-
-            #         self.letter_shifts = list()
-            #         self.letter_shifts.append({
-            #                                    'L': 'N',
-            #                                    'W': 'A'
-            #                                    })
-            #         self.letter_shifts = self.make_shifts_01()
 
     def make_shifts_01(self):
         shifts = list()
@@ -154,10 +137,10 @@ class CaesarCode(object):
             text = ''.join([letter_shift[x]
                             if x in letter_shift
                             else x.lower() for x in input_text])
-            pprint(text)
+            print(text)
 
     def print_letter_permutations(self, input_text):
-        '''Print the input text with all possible letter permutations.'''
+        """Print the input text with all possible letter permutations."""
         letters_sorted = self.sort_letters(input_text)
         all_letters = self._sorted_letters_by_frequency()
         for i in range(6, 6 + 1):
@@ -170,7 +153,7 @@ class CaesarCode(object):
                 print(permutated_text)
 
     def determine_letter_permutation(self, input_text, allow_double_letters):
-        '''Determine the permutation that results in a valid text'''
+        """Determine the permutation that results in a valid text"""
         self.input_text = ''.join(x for x in input_text if x in string.ascii_letters or x == ' ')
         self.letters_sorted = self.sort_letters(input_text)
         print(self.letters_sorted)
@@ -218,7 +201,7 @@ class CaesarCode(object):
         return (letter_shift, False)
 
     def count_letters(self, input_text):
-        '''Return a letter count for an input text.'''
+        """Return a letter count for an input text."""
         count_dict = {}
         for x in string.ascii_uppercase:
             count_dict[x] = input_text.count(x)
@@ -305,12 +288,9 @@ def geography_permutations():
     cc = CaesarCode()
     cc.permute_with_dict(msg, permutation_dict)
 
+
 if __name__ == '__main__':
-    msg = ''
-
     cc = CaesarCode()
+    msg = 'NBKEORUUOEUBIOOXALSAEOWPFXUFUEWUAWOOUUDWALKEGUVAMIXEAKGIEHEEQEOTNUVEESDEOEFUAOBUHIUHDOSHESKAJIUNBATPPNKZIEUVBDKEIEXAOQAEHNUIOSTUYVIETCFITUIEOUKLOEWHHTUUEWPOCOOKAEAUWSIBDAEIGWIEARMUNOESOEEOSSODLIF'
+    msg = 'VADSEDFRPTWGGWPPJRVEIEGACTWGHRAQPEGIDJEH'
     cc.caesar_code(msg)
-    # cc.count_letters(msg)
-    # cc.print_letter_permutations(msg)
-
-    cc.determine_letter_permutation(msg, allow_double_letters=False)

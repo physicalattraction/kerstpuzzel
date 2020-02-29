@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c4d1cb9-1656-46e8-b3a1-a0fc627cc106" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mono_substitute.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/letter_sudoku.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/word_square.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kerstpuzzel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kerstpuzzel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyWordSubstitution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyWordSubstitution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CaesarCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaesarCode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/anagram_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/anagram_searcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subsequent_square.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/subsequent_square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top_2000_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/top_2000_searcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/word_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mono_substitute.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mono_substitute.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +24,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -33,76 +31,40 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Maisveld</find>
-      <find>permu</find>
-      <find>permutations</find>
-      <find>combination</find>
-      <find>combinations</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>'Maisveld',</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/anagram_searcher.py" />
-        <option value="$PROJECT_DIR$/src/UtilsContainer/vergaderruimtes.py" />
-        <option value="$PROJECT_DIR$/src/vergaderruimtes.py" />
-        <option value="$PROJECT_DIR$/src/meeting_rooms.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="950" />
-  </component>
+  <component name="ProjectId" id="1Ues1qBPpH6VJLUBrY5PU8UloxS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Conundrum" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Conundrum" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.meeting_rooms">
-    <configuration name="anagram_searcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sequence_shift">
+    <configuration name="repeated_letters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kerstpuzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,12 +72,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Conundrum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/anagram_searcher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Conundrum/repeated_letters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="meeting_rooms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sequence_shift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kerstpuzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,26 +94,86 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Conundrum" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/meeting_rooms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Conundrum/sequence_shift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_decrypt_try_all_finds_decrypted_message" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kerstpuzzel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Conundrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_repeated_letters.RepeatedLettersTestCase.test_that_decrypt_try_all_finds_decrypted_message&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_letters_after_repeated_letters_ar_removed" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kerstpuzzel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Conundrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_repeated_letters.RepeatedLettersTestCase.test_that_letters_after_repeated_letters_ar_removed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests_sequence_shift.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kerstpuzzel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Conundrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/Conundrum/tests_sequence_shift.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.meeting_rooms" />
-        <item itemvalue="Python.anagram_searcher" />
+        <item itemvalue="Python.sequence_shift" />
+        <item itemvalue="Python tests.Unittests in tests_sequence_shift.py" />
+        <item itemvalue="Python.repeated_letters" />
+        <item itemvalue="Python tests.Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_decrypt_try_all_finds_decrypted_message" />
+        <item itemvalue="Python tests.Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_letters_after_repeated_letters_ar_removed" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -167,58 +189,97 @@
       <workItem from="1544044839878" duration="4000" />
       <workItem from="1544086132917" duration="598000" />
       <workItem from="1544110608118" duration="128000" />
+      <workItem from="1575728183611" duration="4136000" />
+      <workItem from="1575749768619" duration="577000" />
+      <workItem from="1575878058253" duration="194000" />
+      <workItem from="1576098143822" duration="1626000" />
+      <workItem from="1576138492844" duration="145000" />
+      <workItem from="1577050291649" duration="1774000" />
+      <workItem from="1577110811857" duration="8548000" />
+      <workItem from="1577202034053" duration="2628000" />
+      <workItem from="1577365245563" duration="4290000" />
+      <workItem from="1577799114245" duration="2458000" />
+      <workItem from="1577952934931" duration="333000" />
+      <workItem from="1578056383215" duration="598000" />
+      <workItem from="1578066205659" duration="598000" />
+      <workItem from="1578302278028" duration="171000" />
+      <workItem from="1582991331817" duration="3650000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3222000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="979" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25825346" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983682" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/anagram_searcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meeting_rooms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom" timestamp="1582995364723">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="283" key="GridCell.Tab.0.bottom/0.23.1680.950@0.23.1680.950" timestamp="1576099782667" />
+    <state width="1638" height="284" key="GridCell.Tab.0.bottom/0.23.1680.951@0.23.1680.951" timestamp="1575734426905" />
+    <state width="1638" height="320" key="GridCell.Tab.0.bottom/0.23.1680.953@0.23.1680.953" timestamp="1577808913590" />
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1582995364723" />
+    <state width="1638" height="323" key="GridCell.Tab.0.center" timestamp="1582995364722">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="283" key="GridCell.Tab.0.center/0.23.1680.950@0.23.1680.950" timestamp="1576099782666" />
+    <state width="1638" height="284" key="GridCell.Tab.0.center/0.23.1680.951@0.23.1680.951" timestamp="1575734426904" />
+    <state width="1638" height="320" key="GridCell.Tab.0.center/0.23.1680.953@0.23.1680.953" timestamp="1577808913588" />
+    <state width="1638" height="323" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1582995364722" />
+    <state width="1638" height="323" key="GridCell.Tab.0.left" timestamp="1582995364721">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="283" key="GridCell.Tab.0.left/0.23.1680.950@0.23.1680.950" timestamp="1576099782665" />
+    <state width="1638" height="284" key="GridCell.Tab.0.left/0.23.1680.951@0.23.1680.951" timestamp="1575734426904" />
+    <state width="1638" height="320" key="GridCell.Tab.0.left/0.23.1680.953@0.23.1680.953" timestamp="1577808913587" />
+    <state width="1638" height="323" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1582995364721" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right" timestamp="1582995364722">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="1638" height="283" key="GridCell.Tab.0.right/0.23.1680.950@0.23.1680.950" timestamp="1576099782666" />
+    <state width="1638" height="284" key="GridCell.Tab.0.right/0.23.1680.951@0.23.1680.951" timestamp="1575734426904" />
+    <state width="1638" height="320" key="GridCell.Tab.0.right/0.23.1680.953@0.23.1680.953" timestamp="1577808913589" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1582995364722" />
+    <state x="349" y="138" key="SettingsEditor" timestamp="1582991368765">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="349" y="137" key="SettingsEditor/0.23.1680.951@0.23.1680.951" timestamp="1575728257861" />
+    <state x="349" y="138" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1582991368765" />
+    <state x="539" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1577365255734">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state x="539" y="338" key="com.intellij.ide.util.TipDialog/0.23.1680.953@0.23.1680.953" timestamp="1577365255734" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.23.1920.980@0.23.1920.980" timestamp="1576142624976" />
+    <state x="503" y="268" width="673" height="462" key="find.popup" timestamp="1577801491100">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state x="503" y="268" width="673" height="462" key="find.popup/0.23.1680.953@0.23.1680.953" timestamp="1577801491100" />
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup" timestamp="1577799148241">
+      <screen x="0" y="23" width="1680" height="953" />
+    </state>
+    <state x="505" y="232" width="670" height="676" key="search.everywhere.popup/0.23.1680.953@0.23.1680.953" timestamp="1577799148241" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kerstpuzzel$word_square.coverage" NAME="word_square Coverage Results" MODIFIED="1577366022695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$anagram_searcher.coverage" NAME="anagram_searcher Coverage Results" MODIFIED="1577202568168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_in_Conundrum.coverage" NAME="Unittests in Conundrum Coverage Results" MODIFIED="1582993257705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_in_tests_sequence_shift_py.coverage" NAME="Unittests in tests_sequence_shift.py Coverage Results" MODIFIED="1582995354906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$sequence_shift.coverage" NAME="sequence_shift Coverage Results" MODIFIED="1582995364713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$sequence_guesser.coverage" NAME="sequence_guesser Coverage Results" MODIFIED="1577801646539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$key_cipher.coverage" NAME="key_cipher Coverage Results" MODIFIED="1582993795314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_for_tests_repeated_letters_RepeatedLettersTestCase_test_that_decrypt_try_all_finds_decrypted_message.coverage" NAME="Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_decrypt_try_all_finds_decrypted_message Coverage Results" MODIFIED="1582994273961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$repeated_letters.coverage" NAME="repeated_letters Coverage Results" MODIFIED="1582994505696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_for_tests_key_cipher_KeyCipherTestCase_test_that_encrypt_works.coverage" NAME="Unittests for tests_key_cipher.KeyCipherTestCase.test_that_encrypt_works Coverage Results" MODIFIED="1582992083631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$letter_remove.coverage" NAME="letter_remove Coverage Results" MODIFIED="1582993147228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$letter_scores.coverage" NAME="letter_scores Coverage Results" MODIFIED="1577204558625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$caesar.coverage" NAME="caesar Coverage Results" MODIFIED="1582991789078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$mono_substitute.coverage" NAME="mono_substitute Coverage Results" MODIFIED="1577799481510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1575734332702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$dates.coverage" NAME="dates Coverage Results" MODIFIED="1577799169674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$letter_sudoku.coverage" NAME="letter_sudoku Coverage Results" MODIFIED="1577799680921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$CaesarCode.coverage" NAME="CaesarCode Coverage Results" MODIFIED="1577800648786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_for_tests_repeated_letters_RepeatedLettersTestCase_test_that_letters_after_repeated_letters_ar_removed.coverage" NAME="Unittests for tests_repeated_letters.RepeatedLettersTestCase.test_that_letters_after_repeated_letters_ar_removed Coverage Results" MODIFIED="1582994185071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_for_tests_caesar_CaesarTestCase_test_decrypt_try_all_works.coverage" NAME="Unittests for tests_caesar.CaesarTestCase.test_decrypt_try_all_works Coverage Results" MODIFIED="1582992518197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_for_tests_key_cipher_KeyCipherTestCase_test_that_decrypt_works.coverage" NAME="Unittests for tests_key_cipher.KeyCipherTestCase.test_that_decrypt_works Coverage Results" MODIFIED="1582992135569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
+    <SUITE FILE_PATH="coverage/kerstpuzzel$Unittests_in_tests_key_cipher_py.coverage" NAME="Unittests in tests_key_cipher.py Coverage Results" MODIFIED="1582992339413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Conundrum" />
   </component>
 </project>
